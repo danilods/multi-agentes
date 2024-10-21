@@ -8,7 +8,7 @@ from tools.estrategia_marketing import FerramentaEstrategiaMarketing
 from tools.analise_dados import FerramentaAnaliseDados
 
 
-os.environ["OPENAI_API_KEY"] = "sk-svcacct-E-L7skk-twQhp5aZe2KP9T6uSF-gSCU1kValpEUMkjDpbzGp-Xw-5_UFEYD6fgTY-_gxbWK9dT3BlbkFJ9PmOUV8B5V0RhBPjrcQ8g38bPcV8WmCiWq6CpA6O44uO2OuXFjavKeda-rcQ1n99PoFkGVAGwA"
+os.environ["OPENAI_API_KEY"] = ""
 predict = PredictToolMain()
 
 # Criar o agente de treinamento
