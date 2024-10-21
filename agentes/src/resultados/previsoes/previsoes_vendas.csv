@@ -1,0 +1,51 @@
+ds,yhat,produto_id,nome_produto,categoria
+2024-11-30,2254.720870695732,prod_001,Sabão em Pó,Limpeza
+2024-11-30,1559.326432389065,prod_002,Desinfetante,Limpeza
+2024-11-30,1582.6254847891569,prod_003,Manteiga,Frios e Laticínios
+2024-11-30,1454.1478280586434,prod_004,Fósforo,Diversos
+2024-11-30,2742.6184495315906,prod_005,Multiuso,Limpeza
+2024-11-30,1601.1793309251755,prod_006,Costela,Carnes
+2024-11-30,1527.638736889167,prod_007,Limpa Vidros,Limpeza
+2024-11-30,1521.7651787243078,prod_008,Sorvete,Congelados
+2024-11-30,1424.3250507345297,prod_009,Arroz,Alimentação
+2024-11-30,1344.1082865451142,prod_010,Bife de Alcatra,Carnes
+2024-11-30,1433.2102699303432,prod_011,Sabonete,Higiene
+2024-11-30,1134.5062838805495,prod_012,Suco de Laranja,Bebidas
+2024-11-30,1678.9102613361463,prod_013,Manteiga,Frios e Laticínios
+2024-11-30,1366.6256205078312,prod_014,Base,Cosméticos
+2024-11-30,1430.942761855685,prod_015,Manteiga,Frios e Laticínios
+2024-11-30,1602.8620517841862,prod_016,Croissant,Padaria
+2024-11-30,1576.461218135125,prod_017,Pão Integral,Padaria
+2024-11-30,1466.0407218898556,prod_018,Macarrão,Alimentação
+2024-11-30,1489.0666020246524,prod_019,Esmalte,Cosméticos
+2024-11-30,1491.4639314415322,prod_020,Sorvete,Congelados
+2024-11-30,1383.9260754061381,prod_021,Hambúrguer Congelado,Congelados
+2024-11-30,1538.169528954254,prod_022,Feijão,Alimentação
+2024-11-30,1558.8512950877998,prod_023,Desinfetante,Limpeza
+2024-11-30,2594.6055686525374,prod_024,Perfume,Cosméticos
+2024-11-30,1619.4968051646013,prod_025,Filé de Peito de Frango,Carnes
+2024-11-30,1366.9350814546485,prod_026,Leite Integral,Frios e Laticínios
+2024-11-30,1325.1091744191247,prod_027,Fio Dental,Higiene
+2024-11-30,1497.0754394272985,prod_028,Linguiça,Carnes
+2024-11-30,1537.287760979408,prod_029,Carvão para Churrasco,Diversos
+2024-11-30,1486.212670359204,prod_030,Vinho Tinto,Bebidas
+2024-11-30,1551.2663254767594,prod_031,Biscoito,Padaria
+2024-11-30,1530.6287463301446,prod_032,Pão Francês,Padaria
+2024-11-30,1370.8583788677397,prod_033,Lasanha Congelada,Congelados
+2024-11-30,1640.183255056216,prod_034,Papel Filme,Diversos
+2024-11-30,1423.97693029008,prod_035,Lâmpada,Diversos
+2024-11-30,1667.2522033960106,prod_036,Sabonete Líquido,Higiene
+2024-11-30,1496.8549106221392,prod_037,Presunto,Frios e Laticínios
+2024-11-30,1533.8171808066024,prod_038,Vinho Tinto,Bebidas
+2024-11-30,1502.9551923797005,prod_039,Feijão,Alimentação
+2024-11-30,1492.8087852485123,prod_040,Café,Alimentação
+2024-11-30,1591.5433289430614,prod_041,Fósforo,Diversos
+2024-11-30,1492.7891262132096,prod_042,Açúcar,Alimentação
+2024-11-30,1336.4224609079427,prod_043,Condicionador,Higiene
+2024-11-30,1539.6172481861358,prod_044,Linguiça,Carnes
+2024-11-30,1569.600782792661,prod_045,Desinfetante,Limpeza
+2024-11-30,1351.3873691568078,prod_046,Loção Hidratante,Cosméticos
+2024-11-30,1297.9309525244728,prod_047,Torta de Frango,Padaria
+2024-11-30,1505.1264611941092,prod_048,Lasanha Congelada,Congelados
+2024-11-30,1571.4364900452802,prod_049,Energético,Bebidas
+2024-11-30,1350.7101483318484,prod_050,Farinha de Trigo,Alimentação

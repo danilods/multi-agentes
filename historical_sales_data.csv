@@ -1,0 +1,601 @@
+data,produto_id,nome_produto,categoria,quantidade_vendida,preco_unitario
+2023-10-31,prod_001,Vinho Tinto,Bebidas,497,49.05
+2023-11-30,prod_001,Vinho Tinto,Bebidas,89,49.05
+2023-12-31,prod_001,Vinho Tinto,Bebidas,492,49.05
+2024-01-31,prod_001,Vinho Tinto,Bebidas,471,49.05
+2024-02-29,prod_001,Vinho Tinto,Bebidas,450,49.05
+2024-03-31,prod_001,Vinho Tinto,Bebidas,182,49.05
+2024-04-30,prod_001,Vinho Tinto,Bebidas,289,49.05
+2024-05-31,prod_001,Vinho Tinto,Bebidas,155,49.05
+2024-06-30,prod_001,Vinho Tinto,Bebidas,204,49.05
+2024-07-31,prod_001,Vinho Tinto,Bebidas,88,49.05
+2024-08-31,prod_001,Vinho Tinto,Bebidas,435,49.05
+2024-09-30,prod_001,Vinho Tinto,Bebidas,124,49.05
+2023-10-31,prod_002,Removedor de Maquiagem,Cosméticos,422,30.61
+2023-11-30,prod_002,Removedor de Maquiagem,Cosméticos,256,30.61
+2023-12-31,prod_002,Removedor de Maquiagem,Cosméticos,65,30.61
+2024-01-31,prod_002,Removedor de Maquiagem,Cosméticos,233,30.61
+2024-02-29,prod_002,Removedor de Maquiagem,Cosméticos,294,30.61
+2024-03-31,prod_002,Removedor de Maquiagem,Cosméticos,102,30.61
+2024-04-30,prod_002,Removedor de Maquiagem,Cosméticos,126,30.61
+2024-05-31,prod_002,Removedor de Maquiagem,Cosméticos,218,30.61
+2024-06-30,prod_002,Removedor de Maquiagem,Cosméticos,377,30.61
+2024-07-31,prod_002,Removedor de Maquiagem,Cosméticos,163,30.61
+2024-08-31,prod_002,Removedor de Maquiagem,Cosméticos,108,30.61
+2024-09-30,prod_002,Removedor de Maquiagem,Cosméticos,415,30.61
+2023-10-31,prod_003,Pão Francês,Padaria,468,41.68
+2023-11-30,prod_003,Pão Francês,Padaria,365,41.68
+2023-12-31,prod_003,Pão Francês,Padaria,481,41.68
+2024-01-31,prod_003,Pão Francês,Padaria,254,41.68
+2024-02-29,prod_003,Pão Francês,Padaria,54,41.68
+2024-03-31,prod_003,Pão Francês,Padaria,467,41.68
+2024-04-30,prod_003,Pão Francês,Padaria,425,41.68
+2024-05-31,prod_003,Pão Francês,Padaria,230,41.68
+2024-06-30,prod_003,Pão Francês,Padaria,74,41.68
+2024-07-31,prod_003,Pão Francês,Padaria,249,41.68
+2024-08-31,prod_003,Pão Francês,Padaria,117,41.68
+2024-09-30,prod_003,Pão Francês,Padaria,477,41.68
+2023-10-31,prod_004,Bife de Alcatra,Carnes,107,44.57
+2023-11-30,prod_004,Bife de Alcatra,Carnes,98,44.57
+2023-12-31,prod_004,Bife de Alcatra,Carnes,204,44.57
+2024-01-31,prod_004,Bife de Alcatra,Carnes,462,44.57
+2024-02-29,prod_004,Bife de Alcatra,Carnes,110,44.57
+2024-03-31,prod_004,Bife de Alcatra,Carnes,397,44.57
+2024-04-30,prod_004,Bife de Alcatra,Carnes,354,44.57
+2024-05-31,prod_004,Bife de Alcatra,Carnes,395,44.57
+2024-06-30,prod_004,Bife de Alcatra,Carnes,291,44.57
+2024-07-31,prod_004,Bife de Alcatra,Carnes,225,44.57
+2024-08-31,prod_004,Bife de Alcatra,Carnes,60,44.57
+2024-09-30,prod_004,Bife de Alcatra,Carnes,52,44.57
+2023-10-31,prod_005,Queijo Mussarela,Frios e Laticínios,133,35.87
+2023-11-30,prod_005,Queijo Mussarela,Frios e Laticínios,463,35.87
+2023-12-31,prod_005,Queijo Mussarela,Frios e Laticínios,499,35.87
+2024-01-31,prod_005,Queijo Mussarela,Frios e Laticínios,290,35.87
+2024-02-29,prod_005,Queijo Mussarela,Frios e Laticínios,241,35.87
+2024-03-31,prod_005,Queijo Mussarela,Frios e Laticínios,69,35.87
+2024-04-30,prod_005,Queijo Mussarela,Frios e Laticínios,459,35.87
+2024-05-31,prod_005,Queijo Mussarela,Frios e Laticínios,310,35.87
+2024-06-30,prod_005,Queijo Mussarela,Frios e Laticínios,287,35.87
+2024-07-31,prod_005,Queijo Mussarela,Frios e Laticínios,280,35.87
+2024-08-31,prod_005,Queijo Mussarela,Frios e Laticínios,73,35.87
+2024-09-30,prod_005,Queijo Mussarela,Frios e Laticínios,436,35.87
+2023-10-31,prod_006,Hambúrguer Congelado,Congelados,70,21.91
+2023-11-30,prod_006,Hambúrguer Congelado,Congelados,275,21.91
+2023-12-31,prod_006,Hambúrguer Congelado,Congelados,304,21.91
+2024-01-31,prod_006,Hambúrguer Congelado,Congelados,365,21.91
+2024-02-29,prod_006,Hambúrguer Congelado,Congelados,408,21.91
+2024-03-31,prod_006,Hambúrguer Congelado,Congelados,326,21.91
+2024-04-30,prod_006,Hambúrguer Congelado,Congelados,294,21.91
+2024-05-31,prod_006,Hambúrguer Congelado,Congelados,154,21.91
+2024-06-30,prod_006,Hambúrguer Congelado,Congelados,50,21.91
+2024-07-31,prod_006,Hambúrguer Congelado,Congelados,323,21.91
+2024-08-31,prod_006,Hambúrguer Congelado,Congelados,455,21.91
+2024-09-30,prod_006,Hambúrguer Congelado,Congelados,155,21.91
+2023-10-31,prod_007,Filé de Peito de Frango,Carnes,62,23.37
+2023-11-30,prod_007,Filé de Peito de Frango,Carnes,235,23.37
+2023-12-31,prod_007,Filé de Peito de Frango,Carnes,285,23.37
+2024-01-31,prod_007,Filé de Peito de Frango,Carnes,132,23.37
+2024-02-29,prod_007,Filé de Peito de Frango,Carnes,386,23.37
+2024-03-31,prod_007,Filé de Peito de Frango,Carnes,74,23.37
+2024-04-30,prod_007,Filé de Peito de Frango,Carnes,130,23.37
+2024-05-31,prod_007,Filé de Peito de Frango,Carnes,405,23.37
+2024-06-30,prod_007,Filé de Peito de Frango,Carnes,384,23.37
+2024-07-31,prod_007,Filé de Peito de Frango,Carnes,69,23.37
+2024-08-31,prod_007,Filé de Peito de Frango,Carnes,129,23.37
+2024-09-30,prod_007,Filé de Peito de Frango,Carnes,131,23.37
+2023-10-31,prod_008,Esmalte,Cosméticos,494,30.41
+2023-11-30,prod_008,Esmalte,Cosméticos,264,30.41
+2023-12-31,prod_008,Esmalte,Cosméticos,201,30.41
+2024-01-31,prod_008,Esmalte,Cosméticos,361,30.41
+2024-02-29,prod_008,Esmalte,Cosméticos,393,30.41
+2024-03-31,prod_008,Esmalte,Cosméticos,419,30.41
+2024-04-30,prod_008,Esmalte,Cosméticos,341,30.41
+2024-05-31,prod_008,Esmalte,Cosméticos,155,30.41
+2024-06-30,prod_008,Esmalte,Cosméticos,125,30.41
+2024-07-31,prod_008,Esmalte,Cosméticos,428,30.41
+2024-08-31,prod_008,Esmalte,Cosméticos,485,30.41
+2024-09-30,prod_008,Esmalte,Cosméticos,451,30.41
+2023-10-31,prod_009,Vodka,Bebidas,319,22.34
+2023-11-30,prod_009,Vodka,Bebidas,84,22.34
+2023-12-31,prod_009,Vodka,Bebidas,212,22.34
+2024-01-31,prod_009,Vodka,Bebidas,238,22.34
+2024-02-29,prod_009,Vodka,Bebidas,269,22.34
+2024-03-31,prod_009,Vodka,Bebidas,87,22.34
+2024-04-30,prod_009,Vodka,Bebidas,230,22.34
+2024-05-31,prod_009,Vodka,Bebidas,228,22.34
+2024-06-30,prod_009,Vodka,Bebidas,136,22.34
+2024-07-31,prod_009,Vodka,Bebidas,227,22.34
+2024-08-31,prod_009,Vodka,Bebidas,313,22.34
+2024-09-30,prod_009,Vodka,Bebidas,249,22.34
+2023-10-31,prod_010,Croissant,Padaria,180,19.24
+2023-11-30,prod_010,Croissant,Padaria,122,19.24
+2023-12-31,prod_010,Croissant,Padaria,240,19.24
+2024-01-31,prod_010,Croissant,Padaria,436,19.24
+2024-02-29,prod_010,Croissant,Padaria,297,19.24
+2024-03-31,prod_010,Croissant,Padaria,415,19.24
+2024-04-30,prod_010,Croissant,Padaria,313,19.24
+2024-05-31,prod_010,Croissant,Padaria,350,19.24
+2024-06-30,prod_010,Croissant,Padaria,132,19.24
+2024-07-31,prod_010,Croissant,Padaria,301,19.24
+2024-08-31,prod_010,Croissant,Padaria,177,19.24
+2024-09-30,prod_010,Croissant,Padaria,451,19.24
+2023-10-31,prod_011,Sabão em Pó,Limpeza,414,14.42
+2023-11-30,prod_011,Sabão em Pó,Limpeza,459,14.42
+2023-12-31,prod_011,Sabão em Pó,Limpeza,409,14.42
+2024-01-31,prod_011,Sabão em Pó,Limpeza,103,14.42
+2024-02-29,prod_011,Sabão em Pó,Limpeza,495,14.42
+2024-03-31,prod_011,Sabão em Pó,Limpeza,114,14.42
+2024-04-30,prod_011,Sabão em Pó,Limpeza,107,14.42
+2024-05-31,prod_011,Sabão em Pó,Limpeza,296,14.42
+2024-06-30,prod_011,Sabão em Pó,Limpeza,217,14.42
+2024-07-31,prod_011,Sabão em Pó,Limpeza,79,14.42
+2024-08-31,prod_011,Sabão em Pó,Limpeza,56,14.42
+2024-09-30,prod_011,Sabão em Pó,Limpeza,452,14.42
+2023-10-31,prod_012,Queijo Parmesão,Frios e Laticínios,54,14.07
+2023-11-30,prod_012,Queijo Parmesão,Frios e Laticínios,183,14.07
+2023-12-31,prod_012,Queijo Parmesão,Frios e Laticínios,60,14.07
+2024-01-31,prod_012,Queijo Parmesão,Frios e Laticínios,344,14.07
+2024-02-29,prod_012,Queijo Parmesão,Frios e Laticínios,449,14.07
+2024-03-31,prod_012,Queijo Parmesão,Frios e Laticínios,118,14.07
+2024-04-30,prod_012,Queijo Parmesão,Frios e Laticínios,286,14.07
+2024-05-31,prod_012,Queijo Parmesão,Frios e Laticínios,482,14.07
+2024-06-30,prod_012,Queijo Parmesão,Frios e Laticínios,294,14.07
+2024-07-31,prod_012,Queijo Parmesão,Frios e Laticínios,414,14.07
+2024-08-31,prod_012,Queijo Parmesão,Frios e Laticínios,388,14.07
+2024-09-30,prod_012,Queijo Parmesão,Frios e Laticínios,104,14.07
+2023-10-31,prod_013,Limpa Vidros,Limpeza,333,23.14
+2023-11-30,prod_013,Limpa Vidros,Limpeza,402,23.14
+2023-12-31,prod_013,Limpa Vidros,Limpeza,94,23.14
+2024-01-31,prod_013,Limpa Vidros,Limpeza,51,23.14
+2024-02-29,prod_013,Limpa Vidros,Limpeza,181,23.14
+2024-03-31,prod_013,Limpa Vidros,Limpeza,300,23.14
+2024-04-30,prod_013,Limpa Vidros,Limpeza,306,23.14
+2024-05-31,prod_013,Limpa Vidros,Limpeza,88,23.14
+2024-06-30,prod_013,Limpa Vidros,Limpeza,255,23.14
+2024-07-31,prod_013,Limpa Vidros,Limpeza,214,23.14
+2024-08-31,prod_013,Limpa Vidros,Limpeza,382,23.14
+2024-09-30,prod_013,Limpa Vidros,Limpeza,215,23.14
+2023-10-31,prod_014,Iogurte,Frios e Laticínios,322,43.23
+2023-11-30,prod_014,Iogurte,Frios e Laticínios,139,43.23
+2023-12-31,prod_014,Iogurte,Frios e Laticínios,266,43.23
+2024-01-31,prod_014,Iogurte,Frios e Laticínios,284,43.23
+2024-02-29,prod_014,Iogurte,Frios e Laticínios,224,43.23
+2024-03-31,prod_014,Iogurte,Frios e Laticínios,283,43.23
+2024-04-30,prod_014,Iogurte,Frios e Laticínios,72,43.23
+2024-05-31,prod_014,Iogurte,Frios e Laticínios,369,43.23
+2024-06-30,prod_014,Iogurte,Frios e Laticínios,163,43.23
+2024-07-31,prod_014,Iogurte,Frios e Laticínios,179,43.23
+2024-08-31,prod_014,Iogurte,Frios e Laticínios,489,43.23
+2024-09-30,prod_014,Iogurte,Frios e Laticínios,350,43.23
+2023-10-31,prod_015,Refrigerante,Bebidas,450,28.18
+2023-11-30,prod_015,Refrigerante,Bebidas,64,28.18
+2023-12-31,prod_015,Refrigerante,Bebidas,115,28.18
+2024-01-31,prod_015,Refrigerante,Bebidas,220,28.18
+2024-02-29,prod_015,Refrigerante,Bebidas,158,28.18
+2024-03-31,prod_015,Refrigerante,Bebidas,234,28.18
+2024-04-30,prod_015,Refrigerante,Bebidas,226,28.18
+2024-05-31,prod_015,Refrigerante,Bebidas,58,28.18
+2024-06-30,prod_015,Refrigerante,Bebidas,260,28.18
+2024-07-31,prod_015,Refrigerante,Bebidas,248,28.18
+2024-08-31,prod_015,Refrigerante,Bebidas,192,28.18
+2024-09-30,prod_015,Refrigerante,Bebidas,170,28.18
+2023-10-31,prod_016,Feijão,Alimentação,319,41.86
+2023-11-30,prod_016,Feijão,Alimentação,149,41.86
+2023-12-31,prod_016,Feijão,Alimentação,108,41.86
+2024-01-31,prod_016,Feijão,Alimentação,458,41.86
+2024-02-29,prod_016,Feijão,Alimentação,213,41.86
+2024-03-31,prod_016,Feijão,Alimentação,323,41.86
+2024-04-30,prod_016,Feijão,Alimentação,284,41.86
+2024-05-31,prod_016,Feijão,Alimentação,464,41.86
+2024-06-30,prod_016,Feijão,Alimentação,258,41.86
+2024-07-31,prod_016,Feijão,Alimentação,420,41.86
+2024-08-31,prod_016,Feijão,Alimentação,228,41.86
+2024-09-30,prod_016,Feijão,Alimentação,148,41.86
+2023-10-31,prod_017,Sorvete,Congelados,185,18.06
+2023-11-30,prod_017,Sorvete,Congelados,243,18.06
+2023-12-31,prod_017,Sorvete,Congelados,291,18.06
+2024-01-31,prod_017,Sorvete,Congelados,166,18.06
+2024-02-29,prod_017,Sorvete,Congelados,172,18.06
+2024-03-31,prod_017,Sorvete,Congelados,55,18.06
+2024-04-30,prod_017,Sorvete,Congelados,234,18.06
+2024-05-31,prod_017,Sorvete,Congelados,207,18.06
+2024-06-30,prod_017,Sorvete,Congelados,267,18.06
+2024-07-31,prod_017,Sorvete,Congelados,72,18.06
+2024-08-31,prod_017,Sorvete,Congelados,381,18.06
+2024-09-30,prod_017,Sorvete,Congelados,291,18.06
+2023-10-31,prod_018,Pizza Congelada,Congelados,492,28.32
+2023-11-30,prod_018,Pizza Congelada,Congelados,344,28.32
+2023-12-31,prod_018,Pizza Congelada,Congelados,451,28.32
+2024-01-31,prod_018,Pizza Congelada,Congelados,150,28.32
+2024-02-29,prod_018,Pizza Congelada,Congelados,477,28.32
+2024-03-31,prod_018,Pizza Congelada,Congelados,102,28.32
+2024-04-30,prod_018,Pizza Congelada,Congelados,484,28.32
+2024-05-31,prod_018,Pizza Congelada,Congelados,499,28.32
+2024-06-30,prod_018,Pizza Congelada,Congelados,265,28.32
+2024-07-31,prod_018,Pizza Congelada,Congelados,465,28.32
+2024-08-31,prod_018,Pizza Congelada,Congelados,386,28.32
+2024-09-30,prod_018,Pizza Congelada,Congelados,215,28.32
+2023-10-31,prod_019,Sabonete Líquido,Higiene,456,42.47
+2023-11-30,prod_019,Sabonete Líquido,Higiene,88,42.47
+2023-12-31,prod_019,Sabonete Líquido,Higiene,254,42.47
+2024-01-31,prod_019,Sabonete Líquido,Higiene,491,42.47
+2024-02-29,prod_019,Sabonete Líquido,Higiene,258,42.47
+2024-03-31,prod_019,Sabonete Líquido,Higiene,324,42.47
+2024-04-30,prod_019,Sabonete Líquido,Higiene,418,42.47
+2024-05-31,prod_019,Sabonete Líquido,Higiene,425,42.47
+2024-06-30,prod_019,Sabonete Líquido,Higiene,252,42.47
+2024-07-31,prod_019,Sabonete Líquido,Higiene,473,42.47
+2024-08-31,prod_019,Sabonete Líquido,Higiene,314,42.47
+2024-09-30,prod_019,Sabonete Líquido,Higiene,209,42.47
+2023-10-31,prod_020,Sorvete,Congelados,303,37.08
+2023-11-30,prod_020,Sorvete,Congelados,495,37.08
+2023-12-31,prod_020,Sorvete,Congelados,69,37.08
+2024-01-31,prod_020,Sorvete,Congelados,101,37.08
+2024-02-29,prod_020,Sorvete,Congelados,86,37.08
+2024-03-31,prod_020,Sorvete,Congelados,85,37.08
+2024-04-30,prod_020,Sorvete,Congelados,461,37.08
+2024-05-31,prod_020,Sorvete,Congelados,318,37.08
+2024-06-30,prod_020,Sorvete,Congelados,465,37.08
+2024-07-31,prod_020,Sorvete,Congelados,256,37.08
+2024-08-31,prod_020,Sorvete,Congelados,301,37.08
+2024-09-30,prod_020,Sorvete,Congelados,145,37.08
+2023-10-31,prod_021,Papel Alumínio,Diversos,88,46.76
+2023-11-30,prod_021,Papel Alumínio,Diversos,212,46.76
+2023-12-31,prod_021,Papel Alumínio,Diversos,450,46.76
+2024-01-31,prod_021,Papel Alumínio,Diversos,94,46.76
+2024-02-29,prod_021,Papel Alumínio,Diversos,367,46.76
+2024-03-31,prod_021,Papel Alumínio,Diversos,248,46.76
+2024-04-30,prod_021,Papel Alumínio,Diversos,410,46.76
+2024-05-31,prod_021,Papel Alumínio,Diversos,296,46.76
+2024-06-30,prod_021,Papel Alumínio,Diversos,291,46.76
+2024-07-31,prod_021,Papel Alumínio,Diversos,489,46.76
+2024-08-31,prod_021,Papel Alumínio,Diversos,422,46.76
+2024-09-30,prod_021,Papel Alumínio,Diversos,432,46.76
+2023-10-31,prod_022,Pilhas,Diversos,109,41.72
+2023-11-30,prod_022,Pilhas,Diversos,322,41.72
+2023-12-31,prod_022,Pilhas,Diversos,406,41.72
+2024-01-31,prod_022,Pilhas,Diversos,435,41.72
+2024-02-29,prod_022,Pilhas,Diversos,274,41.72
+2024-03-31,prod_022,Pilhas,Diversos,76,41.72
+2024-04-30,prod_022,Pilhas,Diversos,313,41.72
+2024-05-31,prod_022,Pilhas,Diversos,251,41.72
+2024-06-30,prod_022,Pilhas,Diversos,317,41.72
+2024-07-31,prod_022,Pilhas,Diversos,50,41.72
+2024-08-31,prod_022,Pilhas,Diversos,285,41.72
+2024-09-30,prod_022,Pilhas,Diversos,51,41.72
+2023-10-31,prod_023,Bife de Alcatra,Carnes,429,21.9
+2023-11-30,prod_023,Bife de Alcatra,Carnes,488,21.9
+2023-12-31,prod_023,Bife de Alcatra,Carnes,460,21.9
+2024-01-31,prod_023,Bife de Alcatra,Carnes,72,21.9
+2024-02-29,prod_023,Bife de Alcatra,Carnes,59,21.9
+2024-03-31,prod_023,Bife de Alcatra,Carnes,486,21.9
+2024-04-30,prod_023,Bife de Alcatra,Carnes,156,21.9
+2024-05-31,prod_023,Bife de Alcatra,Carnes,65,21.9
+2024-06-30,prod_023,Bife de Alcatra,Carnes,98,21.9
+2024-07-31,prod_023,Bife de Alcatra,Carnes,261,21.9
+2024-08-31,prod_023,Bife de Alcatra,Carnes,368,21.9
+2024-09-30,prod_023,Bife de Alcatra,Carnes,209,21.9
+2023-10-31,prod_024,Lasanha Congelada,Congelados,367,32.14
+2023-11-30,prod_024,Lasanha Congelada,Congelados,139,32.14
+2023-12-31,prod_024,Lasanha Congelada,Congelados,203,32.14
+2024-01-31,prod_024,Lasanha Congelada,Congelados,235,32.14
+2024-02-29,prod_024,Lasanha Congelada,Congelados,90,32.14
+2024-03-31,prod_024,Lasanha Congelada,Congelados,108,32.14
+2024-04-30,prod_024,Lasanha Congelada,Congelados,248,32.14
+2024-05-31,prod_024,Lasanha Congelada,Congelados,183,32.14
+2024-06-30,prod_024,Lasanha Congelada,Congelados,66,32.14
+2024-07-31,prod_024,Lasanha Congelada,Congelados,425,32.14
+2024-08-31,prod_024,Lasanha Congelada,Congelados,473,32.14
+2024-09-30,prod_024,Lasanha Congelada,Congelados,271,32.14
+2023-10-31,prod_025,Vinho Tinto,Bebidas,436,41.2
+2023-11-30,prod_025,Vinho Tinto,Bebidas,197,41.2
+2023-12-31,prod_025,Vinho Tinto,Bebidas,233,41.2
+2024-01-31,prod_025,Vinho Tinto,Bebidas,99,41.2
+2024-02-29,prod_025,Vinho Tinto,Bebidas,473,41.2
+2024-03-31,prod_025,Vinho Tinto,Bebidas,58,41.2
+2024-04-30,prod_025,Vinho Tinto,Bebidas,467,41.2
+2024-05-31,prod_025,Vinho Tinto,Bebidas,107,41.2
+2024-06-30,prod_025,Vinho Tinto,Bebidas,155,41.2
+2024-07-31,prod_025,Vinho Tinto,Bebidas,75,41.2
+2024-08-31,prod_025,Vinho Tinto,Bebidas,449,41.2
+2024-09-30,prod_025,Vinho Tinto,Bebidas,54,41.2
+2023-10-31,prod_026,Multiuso,Limpeza,163,42.47
+2023-11-30,prod_026,Multiuso,Limpeza,289,42.47
+2023-12-31,prod_026,Multiuso,Limpeza,395,42.47
+2024-01-31,prod_026,Multiuso,Limpeza,456,42.47
+2024-02-29,prod_026,Multiuso,Limpeza,491,42.47
+2024-03-31,prod_026,Multiuso,Limpeza,281,42.47
+2024-04-30,prod_026,Multiuso,Limpeza,171,42.47
+2024-05-31,prod_026,Multiuso,Limpeza,381,42.47
+2024-06-30,prod_026,Multiuso,Limpeza,429,42.47
+2024-07-31,prod_026,Multiuso,Limpeza,487,42.47
+2024-08-31,prod_026,Multiuso,Limpeza,487,42.47
+2024-09-30,prod_026,Multiuso,Limpeza,143,42.47
+2023-10-31,prod_027,Feijão,Alimentação,385,6.13
+2023-11-30,prod_027,Feijão,Alimentação,177,6.13
+2023-12-31,prod_027,Feijão,Alimentação,214,6.13
+2024-01-31,prod_027,Feijão,Alimentação,367,6.13
+2024-02-29,prod_027,Feijão,Alimentação,413,6.13
+2024-03-31,prod_027,Feijão,Alimentação,246,6.13
+2024-04-30,prod_027,Feijão,Alimentação,467,6.13
+2024-05-31,prod_027,Feijão,Alimentação,464,6.13
+2024-06-30,prod_027,Feijão,Alimentação,108,6.13
+2024-07-31,prod_027,Feijão,Alimentação,420,6.13
+2024-08-31,prod_027,Feijão,Alimentação,297,6.13
+2024-09-30,prod_027,Feijão,Alimentação,286,6.13
+2023-10-31,prod_028,Queijo Parmesão,Frios e Laticínios,367,24.35
+2023-11-30,prod_028,Queijo Parmesão,Frios e Laticínios,336,24.35
+2023-12-31,prod_028,Queijo Parmesão,Frios e Laticínios,143,24.35
+2024-01-31,prod_028,Queijo Parmesão,Frios e Laticínios,416,24.35
+2024-02-29,prod_028,Queijo Parmesão,Frios e Laticínios,428,24.35
+2024-03-31,prod_028,Queijo Parmesão,Frios e Laticínios,308,24.35
+2024-04-30,prod_028,Queijo Parmesão,Frios e Laticínios,88,24.35
+2024-05-31,prod_028,Queijo Parmesão,Frios e Laticínios,361,24.35
+2024-06-30,prod_028,Queijo Parmesão,Frios e Laticínios,132,24.35
+2024-07-31,prod_028,Queijo Parmesão,Frios e Laticínios,121,24.35
+2024-08-31,prod_028,Queijo Parmesão,Frios e Laticínios,194,24.35
+2024-09-30,prod_028,Queijo Parmesão,Frios e Laticínios,228,24.35
+2023-10-31,prod_029,Carne Moída,Carnes,304,7.5
+2023-11-30,prod_029,Carne Moída,Carnes,463,7.5
+2023-12-31,prod_029,Carne Moída,Carnes,443,7.5
+2024-01-31,prod_029,Carne Moída,Carnes,116,7.5
+2024-02-29,prod_029,Carne Moída,Carnes,264,7.5
+2024-03-31,prod_029,Carne Moída,Carnes,296,7.5
+2024-04-30,prod_029,Carne Moída,Carnes,286,7.5
+2024-05-31,prod_029,Carne Moída,Carnes,151,7.5
+2024-06-30,prod_029,Carne Moída,Carnes,334,7.5
+2024-07-31,prod_029,Carne Moída,Carnes,478,7.5
+2024-08-31,prod_029,Carne Moída,Carnes,373,7.5
+2024-09-30,prod_029,Carne Moída,Carnes,145,7.5
+2023-10-31,prod_030,Leite Integral,Frios e Laticínios,384,41.97
+2023-11-30,prod_030,Leite Integral,Frios e Laticínios,278,41.97
+2023-12-31,prod_030,Leite Integral,Frios e Laticínios,72,41.97
+2024-01-31,prod_030,Leite Integral,Frios e Laticínios,213,41.97
+2024-02-29,prod_030,Leite Integral,Frios e Laticínios,73,41.97
+2024-03-31,prod_030,Leite Integral,Frios e Laticínios,283,41.97
+2024-04-30,prod_030,Leite Integral,Frios e Laticínios,391,41.97
+2024-05-31,prod_030,Leite Integral,Frios e Laticínios,70,41.97
+2024-06-30,prod_030,Leite Integral,Frios e Laticínios,86,41.97
+2024-07-31,prod_030,Leite Integral,Frios e Laticínios,323,41.97
+2024-08-31,prod_030,Leite Integral,Frios e Laticínios,225,41.97
+2024-09-30,prod_030,Leite Integral,Frios e Laticínios,189,41.97
+2023-10-31,prod_031,Farinha de Trigo,Alimentação,81,6.04
+2023-11-30,prod_031,Farinha de Trigo,Alimentação,196,6.04
+2023-12-31,prod_031,Farinha de Trigo,Alimentação,219,6.04
+2024-01-31,prod_031,Farinha de Trigo,Alimentação,193,6.04
+2024-02-29,prod_031,Farinha de Trigo,Alimentação,76,6.04
+2024-03-31,prod_031,Farinha de Trigo,Alimentação,50,6.04
+2024-04-30,prod_031,Farinha de Trigo,Alimentação,276,6.04
+2024-05-31,prod_031,Farinha de Trigo,Alimentação,289,6.04
+2024-06-30,prod_031,Farinha de Trigo,Alimentação,441,6.04
+2024-07-31,prod_031,Farinha de Trigo,Alimentação,490,6.04
+2024-08-31,prod_031,Farinha de Trigo,Alimentação,174,6.04
+2024-09-30,prod_031,Farinha de Trigo,Alimentação,199,6.04
+2023-10-31,prod_032,Base,Cosméticos,291,30.84
+2023-11-30,prod_032,Base,Cosméticos,464,30.84
+2023-12-31,prod_032,Base,Cosméticos,354,30.84
+2024-01-31,prod_032,Base,Cosméticos,312,30.84
+2024-02-29,prod_032,Base,Cosméticos,295,30.84
+2024-03-31,prod_032,Base,Cosméticos,330,30.84
+2024-04-30,prod_032,Base,Cosméticos,113,30.84
+2024-05-31,prod_032,Base,Cosméticos,89,30.84
+2024-06-30,prod_032,Base,Cosméticos,284,30.84
+2024-07-31,prod_032,Base,Cosméticos,151,30.84
+2024-08-31,prod_032,Base,Cosméticos,117,30.84
+2024-09-30,prod_032,Base,Cosméticos,185,30.84
+2023-10-31,prod_033,Biscoito,Padaria,453,27.01
+2023-11-30,prod_033,Biscoito,Padaria,438,27.01
+2023-12-31,prod_033,Biscoito,Padaria,492,27.01
+2024-01-31,prod_033,Biscoito,Padaria,280,27.01
+2024-02-29,prod_033,Biscoito,Padaria,401,27.01
+2024-03-31,prod_033,Biscoito,Padaria,84,27.01
+2024-04-30,prod_033,Biscoito,Padaria,191,27.01
+2024-05-31,prod_033,Biscoito,Padaria,315,27.01
+2024-06-30,prod_033,Biscoito,Padaria,134,27.01
+2024-07-31,prod_033,Biscoito,Padaria,243,27.01
+2024-08-31,prod_033,Biscoito,Padaria,366,27.01
+2024-09-30,prod_033,Biscoito,Padaria,404,27.01
+2023-10-31,prod_034,Macarrão,Alimentação,362,13.01
+2023-11-30,prod_034,Macarrão,Alimentação,184,13.01
+2023-12-31,prod_034,Macarrão,Alimentação,254,13.01
+2024-01-31,prod_034,Macarrão,Alimentação,460,13.01
+2024-02-29,prod_034,Macarrão,Alimentação,338,13.01
+2024-03-31,prod_034,Macarrão,Alimentação,185,13.01
+2024-04-30,prod_034,Macarrão,Alimentação,280,13.01
+2024-05-31,prod_034,Macarrão,Alimentação,366,13.01
+2024-06-30,prod_034,Macarrão,Alimentação,416,13.01
+2024-07-31,prod_034,Macarrão,Alimentação,426,13.01
+2024-08-31,prod_034,Macarrão,Alimentação,366,13.01
+2024-09-30,prod_034,Macarrão,Alimentação,258,13.01
+2023-10-31,prod_035,Torta de Frango,Padaria,297,22.05
+2023-11-30,prod_035,Torta de Frango,Padaria,108,22.05
+2023-12-31,prod_035,Torta de Frango,Padaria,93,22.05
+2024-01-31,prod_035,Torta de Frango,Padaria,89,22.05
+2024-02-29,prod_035,Torta de Frango,Padaria,283,22.05
+2024-03-31,prod_035,Torta de Frango,Padaria,392,22.05
+2024-04-30,prod_035,Torta de Frango,Padaria,261,22.05
+2024-05-31,prod_035,Torta de Frango,Padaria,275,22.05
+2024-06-30,prod_035,Torta de Frango,Padaria,367,22.05
+2024-07-31,prod_035,Torta de Frango,Padaria,129,22.05
+2024-08-31,prod_035,Torta de Frango,Padaria,407,22.05
+2024-09-30,prod_035,Torta de Frango,Padaria,191,22.05
+2023-10-31,prod_036,Pilhas,Diversos,111,31.08
+2023-11-30,prod_036,Pilhas,Diversos,50,31.08
+2023-12-31,prod_036,Pilhas,Diversos,80,31.08
+2024-01-31,prod_036,Pilhas,Diversos,325,31.08
+2024-02-29,prod_036,Pilhas,Diversos,296,31.08
+2024-03-31,prod_036,Pilhas,Diversos,345,31.08
+2024-04-30,prod_036,Pilhas,Diversos,378,31.08
+2024-05-31,prod_036,Pilhas,Diversos,233,31.08
+2024-06-30,prod_036,Pilhas,Diversos,484,31.08
+2024-07-31,prod_036,Pilhas,Diversos,300,31.08
+2024-08-31,prod_036,Pilhas,Diversos,71,31.08
+2024-09-30,prod_036,Pilhas,Diversos,366,31.08
+2023-10-31,prod_037,Carvão para Churrasco,Diversos,58,32.53
+2023-11-30,prod_037,Carvão para Churrasco,Diversos,180,32.53
+2023-12-31,prod_037,Carvão para Churrasco,Diversos,300,32.53
+2024-01-31,prod_037,Carvão para Churrasco,Diversos,336,32.53
+2024-02-29,prod_037,Carvão para Churrasco,Diversos,447,32.53
+2024-03-31,prod_037,Carvão para Churrasco,Diversos,156,32.53
+2024-04-30,prod_037,Carvão para Churrasco,Diversos,160,32.53
+2024-05-31,prod_037,Carvão para Churrasco,Diversos,322,32.53
+2024-06-30,prod_037,Carvão para Churrasco,Diversos,195,32.53
+2024-07-31,prod_037,Carvão para Churrasco,Diversos,378,32.53
+2024-08-31,prod_037,Carvão para Churrasco,Diversos,278,32.53
+2024-09-30,prod_037,Carvão para Churrasco,Diversos,154,32.53
+2023-10-31,prod_038,Guardanapos,Diversos,395,48.22
+2023-11-30,prod_038,Guardanapos,Diversos,221,48.22
+2023-12-31,prod_038,Guardanapos,Diversos,211,48.22
+2024-01-31,prod_038,Guardanapos,Diversos,467,48.22
+2024-02-29,prod_038,Guardanapos,Diversos,385,48.22
+2024-03-31,prod_038,Guardanapos,Diversos,229,48.22
+2024-04-30,prod_038,Guardanapos,Diversos,173,48.22
+2024-05-31,prod_038,Guardanapos,Diversos,137,48.22
+2024-06-30,prod_038,Guardanapos,Diversos,408,48.22
+2024-07-31,prod_038,Guardanapos,Diversos,256,48.22
+2024-08-31,prod_038,Guardanapos,Diversos,216,48.22
+2024-09-30,prod_038,Guardanapos,Diversos,475,48.22
+2023-10-31,prod_039,Detergente,Limpeza,459,34.33
+2023-11-30,prod_039,Detergente,Limpeza,260,34.33
+2023-12-31,prod_039,Detergente,Limpeza,456,34.33
+2024-01-31,prod_039,Detergente,Limpeza,356,34.33
+2024-02-29,prod_039,Detergente,Limpeza,454,34.33
+2024-03-31,prod_039,Detergente,Limpeza,326,34.33
+2024-04-30,prod_039,Detergente,Limpeza,245,34.33
+2024-05-31,prod_039,Detergente,Limpeza,348,34.33
+2024-06-30,prod_039,Detergente,Limpeza,315,34.33
+2024-07-31,prod_039,Detergente,Limpeza,90,34.33
+2024-08-31,prod_039,Detergente,Limpeza,304,34.33
+2024-09-30,prod_039,Detergente,Limpeza,332,34.33
+2023-10-31,prod_040,Queijo Mussarela,Frios e Laticínios,315,6.14
+2023-11-30,prod_040,Queijo Mussarela,Frios e Laticínios,250,6.14
+2023-12-31,prod_040,Queijo Mussarela,Frios e Laticínios,229,6.14
+2024-01-31,prod_040,Queijo Mussarela,Frios e Laticínios,484,6.14
+2024-02-29,prod_040,Queijo Mussarela,Frios e Laticínios,273,6.14
+2024-03-31,prod_040,Queijo Mussarela,Frios e Laticínios,401,6.14
+2024-04-30,prod_040,Queijo Mussarela,Frios e Laticínios,181,6.14
+2024-05-31,prod_040,Queijo Mussarela,Frios e Laticínios,247,6.14
+2024-06-30,prod_040,Queijo Mussarela,Frios e Laticínios,188,6.14
+2024-07-31,prod_040,Queijo Mussarela,Frios e Laticínios,131,6.14
+2024-08-31,prod_040,Queijo Mussarela,Frios e Laticínios,267,6.14
+2024-09-30,prod_040,Queijo Mussarela,Frios e Laticínios,215,6.14
+2023-10-31,prod_041,Feijão,Alimentação,408,21.82
+2023-11-30,prod_041,Feijão,Alimentação,406,21.82
+2023-12-31,prod_041,Feijão,Alimentação,327,21.82
+2024-01-31,prod_041,Feijão,Alimentação,459,21.82
+2024-02-29,prod_041,Feijão,Alimentação,224,21.82
+2024-03-31,prod_041,Feijão,Alimentação,158,21.82
+2024-04-30,prod_041,Feijão,Alimentação,238,21.82
+2024-05-31,prod_041,Feijão,Alimentação,188,21.82
+2024-06-30,prod_041,Feijão,Alimentação,182,21.82
+2024-07-31,prod_041,Feijão,Alimentação,81,21.82
+2024-08-31,prod_041,Feijão,Alimentação,116,21.82
+2024-09-30,prod_041,Feijão,Alimentação,255,21.82
+2023-10-31,prod_042,Frango,Carnes,214,49.76
+2023-11-30,prod_042,Frango,Carnes,331,49.76
+2023-12-31,prod_042,Frango,Carnes,424,49.76
+2024-01-31,prod_042,Frango,Carnes,360,49.76
+2024-02-29,prod_042,Frango,Carnes,320,49.76
+2024-03-31,prod_042,Frango,Carnes,381,49.76
+2024-04-30,prod_042,Frango,Carnes,58,49.76
+2024-05-31,prod_042,Frango,Carnes,257,49.76
+2024-06-30,prod_042,Frango,Carnes,123,49.76
+2024-07-31,prod_042,Frango,Carnes,460,49.76
+2024-08-31,prod_042,Frango,Carnes,89,49.76
+2024-09-30,prod_042,Frango,Carnes,450,49.76
+2023-10-31,prod_043,Pão de Forma,Padaria,239,6.71
+2023-11-30,prod_043,Pão de Forma,Padaria,359,6.71
+2023-12-31,prod_043,Pão de Forma,Padaria,340,6.71
+2024-01-31,prod_043,Pão de Forma,Padaria,214,6.71
+2024-02-29,prod_043,Pão de Forma,Padaria,300,6.71
+2024-03-31,prod_043,Pão de Forma,Padaria,396,6.71
+2024-04-30,prod_043,Pão de Forma,Padaria,360,6.71
+2024-05-31,prod_043,Pão de Forma,Padaria,366,6.71
+2024-06-30,prod_043,Pão de Forma,Padaria,340,6.71
+2024-07-31,prod_043,Pão de Forma,Padaria,111,6.71
+2024-08-31,prod_043,Pão de Forma,Padaria,73,6.71
+2024-09-30,prod_043,Pão de Forma,Padaria,215,6.71
+2023-10-31,prod_044,Desodorante,Higiene,293,7.68
+2023-11-30,prod_044,Desodorante,Higiene,412,7.68
+2023-12-31,prod_044,Desodorante,Higiene,225,7.68
+2024-01-31,prod_044,Desodorante,Higiene,428,7.68
+2024-02-29,prod_044,Desodorante,Higiene,427,7.68
+2024-03-31,prod_044,Desodorante,Higiene,85,7.68
+2024-04-30,prod_044,Desodorante,Higiene,94,7.68
+2024-05-31,prod_044,Desodorante,Higiene,189,7.68
+2024-06-30,prod_044,Desodorante,Higiene,299,7.68
+2024-07-31,prod_044,Desodorante,Higiene,111,7.68
+2024-08-31,prod_044,Desodorante,Higiene,56,7.68
+2024-09-30,prod_044,Desodorante,Higiene,58,7.68
+2023-10-31,prod_045,Sabonete Líquido,Higiene,438,25.24
+2023-11-30,prod_045,Sabonete Líquido,Higiene,468,25.24
+2023-12-31,prod_045,Sabonete Líquido,Higiene,448,25.24
+2024-01-31,prod_045,Sabonete Líquido,Higiene,422,25.24
+2024-02-29,prod_045,Sabonete Líquido,Higiene,205,25.24
+2024-03-31,prod_045,Sabonete Líquido,Higiene,69,25.24
+2024-04-30,prod_045,Sabonete Líquido,Higiene,201,25.24
+2024-05-31,prod_045,Sabonete Líquido,Higiene,217,25.24
+2024-06-30,prod_045,Sabonete Líquido,Higiene,493,25.24
+2024-07-31,prod_045,Sabonete Líquido,Higiene,392,25.24
+2024-08-31,prod_045,Sabonete Líquido,Higiene,183,25.24
+2024-09-30,prod_045,Sabonete Líquido,Higiene,217,25.24
+2023-10-31,prod_046,Batom,Cosméticos,473,22.34
+2023-11-30,prod_046,Batom,Cosméticos,205,22.34
+2023-12-31,prod_046,Batom,Cosméticos,291,22.34
+2024-01-31,prod_046,Batom,Cosméticos,63,22.34
+2024-02-29,prod_046,Batom,Cosméticos,344,22.34
+2024-03-31,prod_046,Batom,Cosméticos,267,22.34
+2024-04-30,prod_046,Batom,Cosméticos,299,22.34
+2024-05-31,prod_046,Batom,Cosméticos,425,22.34
+2024-06-30,prod_046,Batom,Cosméticos,226,22.34
+2024-07-31,prod_046,Batom,Cosméticos,310,22.34
+2024-08-31,prod_046,Batom,Cosméticos,174,22.34
+2024-09-30,prod_046,Batom,Cosméticos,316,22.34
+2023-10-31,prod_047,Linguiça,Carnes,452,46.92
+2023-11-30,prod_047,Linguiça,Carnes,365,46.92
+2023-12-31,prod_047,Linguiça,Carnes,446,46.92
+2024-01-31,prod_047,Linguiça,Carnes,85,46.92
+2024-02-29,prod_047,Linguiça,Carnes,343,46.92
+2024-03-31,prod_047,Linguiça,Carnes,440,46.92
+2024-04-30,prod_047,Linguiça,Carnes,463,46.92
+2024-05-31,prod_047,Linguiça,Carnes,359,46.92
+2024-06-30,prod_047,Linguiça,Carnes,302,46.92
+2024-07-31,prod_047,Linguiça,Carnes,189,46.92
+2024-08-31,prod_047,Linguiça,Carnes,158,46.92
+2024-09-30,prod_047,Linguiça,Carnes,92,46.92
+2023-10-31,prod_048,Lasanha Congelada,Congelados,231,22.75
+2023-11-30,prod_048,Lasanha Congelada,Congelados,445,22.75
+2023-12-31,prod_048,Lasanha Congelada,Congelados,198,22.75
+2024-01-31,prod_048,Lasanha Congelada,Congelados,319,22.75
+2024-02-29,prod_048,Lasanha Congelada,Congelados,266,22.75
+2024-03-31,prod_048,Lasanha Congelada,Congelados,108,22.75
+2024-04-30,prod_048,Lasanha Congelada,Congelados,317,22.75
+2024-05-31,prod_048,Lasanha Congelada,Congelados,323,22.75
+2024-06-30,prod_048,Lasanha Congelada,Congelados,476,22.75
+2024-07-31,prod_048,Lasanha Congelada,Congelados,331,22.75
+2024-08-31,prod_048,Lasanha Congelada,Congelados,150,22.75
+2024-09-30,prod_048,Lasanha Congelada,Congelados,241,22.75
+2023-10-31,prod_049,Creme Dental,Higiene,269,20.12
+2023-11-30,prod_049,Creme Dental,Higiene,273,20.12
+2023-12-31,prod_049,Creme Dental,Higiene,285,20.12
+2024-01-31,prod_049,Creme Dental,Higiene,459,20.12
+2024-02-29,prod_049,Creme Dental,Higiene,305,20.12
+2024-03-31,prod_049,Creme Dental,Higiene,451,20.12
+2024-04-30,prod_049,Creme Dental,Higiene,349,20.12
+2024-05-31,prod_049,Creme Dental,Higiene,145,20.12
+2024-06-30,prod_049,Creme Dental,Higiene,406,20.12
+2024-07-31,prod_049,Creme Dental,Higiene,229,20.12
+2024-08-31,prod_049,Creme Dental,Higiene,84,20.12
+2024-09-30,prod_049,Creme Dental,Higiene,375,20.12
+2023-10-31,prod_050,Detergente,Limpeza,91,17.68
+2023-11-30,prod_050,Detergente,Limpeza,300,17.68
+2023-12-31,prod_050,Detergente,Limpeza,477,17.68
+2024-01-31,prod_050,Detergente,Limpeza,372,17.68
+2024-02-29,prod_050,Detergente,Limpeza,244,17.68
+2024-03-31,prod_050,Detergente,Limpeza,338,17.68
+2024-04-30,prod_050,Detergente,Limpeza,235,17.68
+2024-05-31,prod_050,Detergente,Limpeza,89,17.68
+2024-06-30,prod_050,Detergente,Limpeza,431,17.68
+2024-07-31,prod_050,Detergente,Limpeza,303,17.68
+2024-08-31,prod_050,Detergente,Limpeza,125,17.68
+2024-09-30,prod_050,Detergente,Limpeza,113,17.68

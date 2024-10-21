@@ -1,0 +1,1001 @@
+produto_id,nome_produto,categoria,quantidade,predicted_demand,data_vencimento,localizacao
+prod_0001,Sabonete,Higiene,222,138,2025-10-11,Corredor 1, Prateleira C
+prod_0002,Shampoo,Higiene,325,346,2025-06-22,Corredor 8, Prateleira B
+prod_0003,Condicionador,Higiene,418,183,2025-09-16,Corredor 5, Prateleira D
+prod_0004,Creme Dental,Higiene,459,298,2025-05-18,Corredor 8, Prateleira D
+prod_0005,Sabonete Líquido,Higiene,36,355,2025-02-17,Corredor 4, Prateleira A
+prod_0006,Desodorante,Higiene,404,394,2025-07-21,Corredor 10, Prateleira B
+prod_0007,Fio Dental,Higiene,349,241,2025-08-25,Corredor 10, Prateleira B
+prod_0008,Detergente,Limpeza,146,141,2025-04-07,Corredor 6, Prateleira D
+prod_0009,Sabão em Pó,Limpeza,43,268,2025-08-17,Corredor 7, Prateleira A
+prod_0010,Amaciante,Limpeza,169,266,2025-05-07,Corredor 1, Prateleira B
+prod_0011,Desinfetante,Limpeza,125,357,2025-08-17,Corredor 1, Prateleira C
+prod_0012,Multiuso,Limpeza,17,343,2025-01-17,Corredor 9, Prateleira C
+prod_0013,Esponja de Aço,Limpeza,439,38,2025-01-24,Corredor 3, Prateleira D
+prod_0014,Limpa Vidros,Limpeza,418,104,2025-04-13,Corredor 9, Prateleira B
+prod_0015,Arroz,Alimentação,371,254,2024-12-17,Corredor 8, Prateleira A
+prod_0016,Feijão,Alimentação,162,60,2025-05-29,Corredor 1, Prateleira A
+prod_0017,Macarrão,Alimentação,133,111,2025-01-31,Corredor 5, Prateleira D
+prod_0018,Açúcar,Alimentação,268,146,2025-07-07,Corredor 9, Prateleira D
+prod_0019,Café,Alimentação,121,39,2024-12-11,Corredor 3, Prateleira A
+prod_0020,Farinha de Trigo,Alimentação,132,209,2025-08-10,Corredor 3, Prateleira B
+prod_0021,Azeite de Oliva,Alimentação,206,62,2025-06-06,Corredor 2, Prateleira A
+prod_0022,Refrigerante,Bebidas,489,213,2025-06-27,Corredor 2, Prateleira B
+prod_0023,Suco de Laranja,Bebidas,135,24,2024-12-02,Corredor 5, Prateleira D
+prod_0024,Água Mineral,Bebidas,332,208,2025-02-27,Corredor 2, Prateleira C
+prod_0025,Cerveja,Bebidas,86,126,2025-09-12,Corredor 6, Prateleira C
+prod_0026,Vinho Tinto,Bebidas,299,99,2025-03-30,Corredor 4, Prateleira C
+prod_0027,Vodka,Bebidas,467,55,2024-12-15,Corredor 1, Prateleira B
+prod_0028,Energético,Bebidas,36,116,2024-12-21,Corredor 5, Prateleira C
+prod_0029,Pilhas,Diversos,457,60,2025-08-10,Corredor 7, Prateleira B
+prod_0030,Lâmpada,Diversos,499,304,2025-02-10,Corredor 8, Prateleira B
+prod_0031,Carvão para Churrasco,Diversos,209,285,2025-07-09,Corredor 3, Prateleira B
+prod_0032,Papel Alumínio,Diversos,309,106,2025-07-29,Corredor 6, Prateleira D
+prod_0033,Papel Filme,Diversos,346,309,2025-03-18,Corredor 8, Prateleira D
+prod_0034,Fósforo,Diversos,372,375,2025-05-15,Corredor 8, Prateleira C
+prod_0035,Guardanapos,Diversos,23,115,2025-06-01,Corredor 10, Prateleira A
+prod_0036,Batom,Cosméticos,346,196,2025-02-13,Corredor 3, Prateleira A
+prod_0037,Esmalte,Cosméticos,373,115,2025-05-12,Corredor 2, Prateleira B
+prod_0038,Loção Hidratante,Cosméticos,477,135,2025-03-01,Corredor 6, Prateleira D
+prod_0039,Perfume,Cosméticos,421,156,2025-07-08,Corredor 10, Prateleira C
+prod_0040,Base,Cosméticos,381,94,2025-10-11,Corredor 6, Prateleira D
+prod_0041,Protetor Solar,Cosméticos,376,388,2024-12-12,Corredor 3, Prateleira D
+prod_0042,Removedor de Maquiagem,Cosméticos,25,294,2025-01-20,Corredor 7, Prateleira B
+prod_0043,Queijo Mussarela,Frios e Laticínios,132,25,2025-07-26,Corredor 3, Prateleira B
+prod_0044,Presunto,Frios e Laticínios,351,365,2025-10-10,Corredor 1, Prateleira D
+prod_0045,Leite Integral,Frios e Laticínios,316,78,2025-09-19,Corredor 4, Prateleira C
+prod_0046,Manteiga,Frios e Laticínios,147,218,2025-03-25,Corredor 3, Prateleira A
+prod_0047,Iogurte,Frios e Laticínios,50,253,2025-06-02,Corredor 4, Prateleira C
+prod_0048,Queijo Parmesão,Frios e Laticínios,64,181,2024-11-27,Corredor 8, Prateleira A
+prod_0049,Requeijão,Frios e Laticínios,425,235,2025-05-06,Corredor 5, Prateleira A
+prod_0050,Carne Moída,Carnes,79,113,2024-12-11,Corredor 3, Prateleira A
+prod_0051,Frango,Carnes,34,30,2025-04-01,Corredor 10, Prateleira C
+prod_0052,Linguiça,Carnes,194,93,2025-08-05,Corredor 6, Prateleira C
+prod_0053,Picanha,Carnes,465,324,2025-06-29,Corredor 4, Prateleira C
+prod_0054,Costela,Carnes,484,207,2025-07-05,Corredor 7, Prateleira C
+prod_0055,Filé de Peito de Frango,Carnes,89,73,2025-05-20,Corredor 7, Prateleira D
+prod_0056,Bife de Alcatra,Carnes,133,391,2025-06-22,Corredor 4, Prateleira D
+prod_0057,Pão Francês,Padaria,423,337,2024-12-05,Corredor 7, Prateleira B
+prod_0058,Pão de Forma,Padaria,38,398,2025-09-09,Corredor 8, Prateleira A
+prod_0059,Bolo de Chocolate,Padaria,268,77,2025-03-01,Corredor 6, Prateleira C
+prod_0060,Croissant,Padaria,328,330,2024-12-28,Corredor 1, Prateleira A
+prod_0061,Torta de Frango,Padaria,14,308,2025-07-02,Corredor 5, Prateleira C
+prod_0062,Pão Integral,Padaria,291,209,2025-02-02,Corredor 6, Prateleira D
+prod_0063,Biscoito,Padaria,313,58,2025-05-19,Corredor 2, Prateleira C
+prod_0064,Pizza Congelada,Congelados,285,24,2025-02-02,Corredor 7, Prateleira D
+prod_0065,Lasanha Congelada,Congelados,467,249,2025-08-25,Corredor 2, Prateleira D
+prod_0066,Batata Frita Congelada,Congelados,289,23,2025-06-12,Corredor 1, Prateleira B
+prod_0067,Hambúrguer Congelado,Congelados,235,352,2025-04-27,Corredor 1, Prateleira A
+prod_0068,Peixe Congelado,Congelados,128,266,2025-10-04,Corredor 1, Prateleira C
+prod_0069,Nuggets,Congelados,345,281,2025-07-24,Corredor 10, Prateleira D
+prod_0070,Sorvete,Congelados,464,133,2024-12-07,Corredor 5, Prateleira C
+prod_0071,Sabonete,Higiene,351,111,2025-03-16,Corredor 4, Prateleira B
+prod_0072,Shampoo,Higiene,500,320,2025-08-13,Corredor 7, Prateleira C
+prod_0073,Condicionador,Higiene,385,294,2025-07-26,Corredor 10, Prateleira A
+prod_0074,Creme Dental,Higiene,373,290,2025-09-28,Corredor 4, Prateleira C
+prod_0075,Sabonete Líquido,Higiene,123,196,2024-12-14,Corredor 1, Prateleira D
+prod_0076,Desodorante,Higiene,426,145,2025-08-23,Corredor 9, Prateleira D
+prod_0077,Fio Dental,Higiene,365,202,2025-07-09,Corredor 10, Prateleira D
+prod_0078,Detergente,Limpeza,470,285,2025-07-07,Corredor 10, Prateleira B
+prod_0079,Sabão em Pó,Limpeza,247,351,2024-12-24,Corredor 8, Prateleira B
+prod_0080,Amaciante,Limpeza,219,333,2025-05-07,Corredor 4, Prateleira C
+prod_0081,Desinfetante,Limpeza,370,313,2025-07-03,Corredor 10, Prateleira A
+prod_0082,Multiuso,Limpeza,24,232,2025-05-11,Corredor 8, Prateleira D
+prod_0083,Esponja de Aço,Limpeza,326,129,2024-12-29,Corredor 3, Prateleira B
+prod_0084,Limpa Vidros,Limpeza,28,33,2025-03-21,Corredor 5, Prateleira D
+prod_0085,Arroz,Alimentação,265,31,2025-08-26,Corredor 6, Prateleira B
+prod_0086,Feijão,Alimentação,310,374,2025-01-14,Corredor 10, Prateleira D
+prod_0087,Macarrão,Alimentação,69,133,2025-06-25,Corredor 2, Prateleira D
+prod_0088,Açúcar,Alimentação,128,274,2025-03-21,Corredor 6, Prateleira D
+prod_0089,Café,Alimentação,340,161,2025-10-16,Corredor 9, Prateleira B
+prod_0090,Farinha de Trigo,Alimentação,442,351,2025-04-11,Corredor 5, Prateleira C
+prod_0091,Azeite de Oliva,Alimentação,314,254,2025-03-28,Corredor 8, Prateleira B
+prod_0092,Refrigerante,Bebidas,10,205,2025-02-22,Corredor 8, Prateleira C
+prod_0093,Suco de Laranja,Bebidas,151,79,2025-09-03,Corredor 4, Prateleira C
+prod_0094,Água Mineral,Bebidas,73,324,2025-02-03,Corredor 8, Prateleira C
+prod_0095,Cerveja,Bebidas,453,228,2025-01-22,Corredor 10, Prateleira C
+prod_0096,Vinho Tinto,Bebidas,46,130,2025-05-23,Corredor 2, Prateleira A
+prod_0097,Vodka,Bebidas,380,24,2025-03-30,Corredor 5, Prateleira A
+prod_0098,Energético,Bebidas,441,288,2025-05-06,Corredor 5, Prateleira D
+prod_0099,Pilhas,Diversos,427,319,2024-12-07,Corredor 6, Prateleira C
+prod_0100,Lâmpada,Diversos,172,100,2025-02-09,Corredor 6, Prateleira D
+prod_0101,Carvão para Churrasco,Diversos,100,36,2025-06-19,Corredor 2, Prateleira B
+prod_0102,Papel Alumínio,Diversos,148,351,2025-07-19,Corredor 6, Prateleira B
+prod_0103,Papel Filme,Diversos,472,29,2025-07-05,Corredor 5, Prateleira D
+prod_0104,Fósforo,Diversos,39,196,2025-06-25,Corredor 10, Prateleira D
+prod_0105,Guardanapos,Diversos,320,130,2025-07-09,Corredor 4, Prateleira C
+prod_0106,Batom,Cosméticos,237,150,2024-12-26,Corredor 4, Prateleira D
+prod_0107,Esmalte,Cosméticos,292,140,2025-09-27,Corredor 1, Prateleira C
+prod_0108,Loção Hidratante,Cosméticos,410,300,2025-10-12,Corredor 4, Prateleira D
+prod_0109,Perfume,Cosméticos,411,57,2025-03-19,Corredor 10, Prateleira B
+prod_0110,Base,Cosméticos,487,236,2025-09-09,Corredor 3, Prateleira A
+prod_0111,Protetor Solar,Cosméticos,191,77,2025-03-20,Corredor 3, Prateleira B
+prod_0112,Removedor de Maquiagem,Cosméticos,225,246,2025-08-12,Corredor 7, Prateleira C
+prod_0113,Queijo Mussarela,Frios e Laticínios,194,270,2024-12-22,Corredor 4, Prateleira B
+prod_0114,Presunto,Frios e Laticínios,383,387,2025-10-03,Corredor 7, Prateleira D
+prod_0115,Leite Integral,Frios e Laticínios,216,159,2025-08-13,Corredor 4, Prateleira D
+prod_0116,Manteiga,Frios e Laticínios,290,29,2025-06-27,Corredor 8, Prateleira C
+prod_0117,Iogurte,Frios e Laticínios,279,297,2025-01-16,Corredor 9, Prateleira B
+prod_0118,Queijo Parmesão,Frios e Laticínios,81,83,2025-08-04,Corredor 5, Prateleira C
+prod_0119,Requeijão,Frios e Laticínios,495,75,2025-02-28,Corredor 10, Prateleira C
+prod_0120,Carne Moída,Carnes,359,313,2025-03-22,Corredor 10, Prateleira A
+prod_0121,Frango,Carnes,464,400,2025-10-11,Corredor 7, Prateleira B
+prod_0122,Linguiça,Carnes,362,190,2025-07-14,Corredor 2, Prateleira C
+prod_0123,Picanha,Carnes,15,280,2025-07-05,Corredor 4, Prateleira D
+prod_0124,Costela,Carnes,332,278,2025-09-04,Corredor 7, Prateleira D
+prod_0125,Filé de Peito de Frango,Carnes,262,317,2024-11-28,Corredor 3, Prateleira C
+prod_0126,Bife de Alcatra,Carnes,81,302,2025-05-24,Corredor 3, Prateleira C
+prod_0127,Pão Francês,Padaria,235,382,2025-03-26,Corredor 1, Prateleira A
+prod_0128,Pão de Forma,Padaria,206,110,2025-09-21,Corredor 10, Prateleira A
+prod_0129,Bolo de Chocolate,Padaria,268,259,2025-07-16,Corredor 8, Prateleira B
+prod_0130,Croissant,Padaria,59,382,2025-04-27,Corredor 4, Prateleira D
+prod_0131,Torta de Frango,Padaria,23,249,2025-08-28,Corredor 9, Prateleira D
+prod_0132,Pão Integral,Padaria,416,399,2025-07-23,Corredor 4, Prateleira B
+prod_0133,Biscoito,Padaria,61,383,2025-01-08,Corredor 4, Prateleira B
+prod_0134,Pizza Congelada,Congelados,420,366,2024-12-21,Corredor 3, Prateleira D
+prod_0135,Lasanha Congelada,Congelados,149,393,2025-06-19,Corredor 4, Prateleira A
+prod_0136,Batata Frita Congelada,Congelados,368,73,2025-01-19,Corredor 10, Prateleira B
+prod_0137,Hambúrguer Congelado,Congelados,114,226,2025-08-09,Corredor 1, Prateleira B
+prod_0138,Peixe Congelado,Congelados,55,217,2025-01-01,Corredor 2, Prateleira C
+prod_0139,Nuggets,Congelados,462,213,2025-10-19,Corredor 6, Prateleira A
+prod_0140,Sorvete,Congelados,117,366,2024-11-20,Corredor 1, Prateleira C
+prod_0141,Sabonete,Higiene,188,325,2024-12-17,Corredor 4, Prateleira B
+prod_0142,Shampoo,Higiene,446,274,2025-08-26,Corredor 3, Prateleira A
+prod_0143,Condicionador,Higiene,190,283,2025-05-16,Corredor 1, Prateleira C
+prod_0144,Creme Dental,Higiene,277,260,2025-06-01,Corredor 8, Prateleira D
+prod_0145,Sabonete Líquido,Higiene,63,369,2024-12-09,Corredor 7, Prateleira D
+prod_0146,Desodorante,Higiene,65,313,2025-02-04,Corredor 1, Prateleira B
+prod_0147,Fio Dental,Higiene,180,255,2025-07-22,Corredor 9, Prateleira B
+prod_0148,Detergente,Limpeza,256,281,2025-03-13,Corredor 6, Prateleira D
+prod_0149,Sabão em Pó,Limpeza,158,111,2025-08-21,Corredor 1, Prateleira A
+prod_0150,Amaciante,Limpeza,221,85,2025-02-27,Corredor 6, Prateleira C
+prod_0151,Desinfetante,Limpeza,14,260,2025-09-03,Corredor 3, Prateleira B
+prod_0152,Multiuso,Limpeza,271,105,2025-05-23,Corredor 3, Prateleira A
+prod_0153,Esponja de Aço,Limpeza,129,366,2024-12-08,Corredor 10, Prateleira A
+prod_0154,Limpa Vidros,Limpeza,29,136,2025-07-08,Corredor 2, Prateleira A
+prod_0155,Arroz,Alimentação,471,243,2025-02-19,Corredor 2, Prateleira C
+prod_0156,Feijão,Alimentação,278,220,2025-09-04,Corredor 5, Prateleira C
+prod_0157,Macarrão,Alimentação,498,113,2025-08-13,Corredor 5, Prateleira B
+prod_0158,Açúcar,Alimentação,297,207,2025-06-09,Corredor 7, Prateleira A
+prod_0159,Café,Alimentação,295,43,2024-12-19,Corredor 4, Prateleira A
+prod_0160,Farinha de Trigo,Alimentação,485,236,2025-05-10,Corredor 5, Prateleira A
+prod_0161,Azeite de Oliva,Alimentação,132,52,2025-05-17,Corredor 8, Prateleira A
+prod_0162,Refrigerante,Bebidas,463,106,2024-11-23,Corredor 7, Prateleira D
+prod_0163,Suco de Laranja,Bebidas,245,246,2024-12-11,Corredor 2, Prateleira B
+prod_0164,Água Mineral,Bebidas,367,346,2025-03-03,Corredor 5, Prateleira C
+prod_0165,Cerveja,Bebidas,29,137,2025-01-27,Corredor 5, Prateleira A
+prod_0166,Vinho Tinto,Bebidas,92,327,2025-06-15,Corredor 1, Prateleira A
+prod_0167,Vodka,Bebidas,330,260,2024-12-06,Corredor 2, Prateleira A
+prod_0168,Energético,Bebidas,187,353,2025-06-07,Corredor 1, Prateleira D
+prod_0169,Pilhas,Diversos,43,368,2024-12-10,Corredor 10, Prateleira A
+prod_0170,Lâmpada,Diversos,34,382,2025-10-19,Corredor 1, Prateleira C
+prod_0171,Carvão para Churrasco,Diversos,469,276,2025-07-21,Corredor 9, Prateleira C
+prod_0172,Papel Alumínio,Diversos,55,207,2025-07-05,Corredor 4, Prateleira A
+prod_0173,Papel Filme,Diversos,360,166,2025-03-21,Corredor 3, Prateleira C
+prod_0174,Fósforo,Diversos,401,111,2025-01-24,Corredor 5, Prateleira D
+prod_0175,Guardanapos,Diversos,285,219,2025-09-23,Corredor 2, Prateleira B
+prod_0176,Batom,Cosméticos,487,265,2025-03-14,Corredor 5, Prateleira C
+prod_0177,Esmalte,Cosméticos,149,196,2025-09-16,Corredor 6, Prateleira A
+prod_0178,Loção Hidratante,Cosméticos,195,199,2025-08-08,Corredor 1, Prateleira C
+prod_0179,Perfume,Cosméticos,355,54,2025-04-04,Corredor 5, Prateleira C
+prod_0180,Base,Cosméticos,17,132,2025-04-24,Corredor 5, Prateleira C
+prod_0181,Protetor Solar,Cosméticos,248,388,2025-02-26,Corredor 1, Prateleira C
+prod_0182,Removedor de Maquiagem,Cosméticos,103,70,2024-12-08,Corredor 4, Prateleira C
+prod_0183,Queijo Mussarela,Frios e Laticínios,137,318,2025-10-13,Corredor 8, Prateleira D
+prod_0184,Presunto,Frios e Laticínios,208,261,2025-05-26,Corredor 7, Prateleira D
+prod_0185,Leite Integral,Frios e Laticínios,247,400,2025-01-16,Corredor 4, Prateleira A
+prod_0186,Manteiga,Frios e Laticínios,362,210,2025-09-10,Corredor 7, Prateleira A
+prod_0187,Iogurte,Frios e Laticínios,111,120,2025-02-03,Corredor 1, Prateleira B
+prod_0188,Queijo Parmesão,Frios e Laticínios,28,383,2025-08-16,Corredor 3, Prateleira C
+prod_0189,Requeijão,Frios e Laticínios,354,159,2025-08-23,Corredor 10, Prateleira A
+prod_0190,Carne Moída,Carnes,443,255,2025-06-13,Corredor 4, Prateleira A
+prod_0191,Frango,Carnes,343,150,2025-08-09,Corredor 5, Prateleira B
+prod_0192,Linguiça,Carnes,324,81,2025-07-03,Corredor 6, Prateleira A
+prod_0193,Picanha,Carnes,140,331,2025-08-12,Corredor 5, Prateleira D
+prod_0194,Costela,Carnes,281,28,2025-09-14,Corredor 3, Prateleira D
+prod_0195,Filé de Peito de Frango,Carnes,228,123,2025-05-18,Corredor 1, Prateleira D
+prod_0196,Bife de Alcatra,Carnes,321,175,2025-09-14,Corredor 2, Prateleira D
+prod_0197,Pão Francês,Padaria,479,63,2025-01-04,Corredor 5, Prateleira A
+prod_0198,Pão de Forma,Padaria,158,28,2025-09-15,Corredor 8, Prateleira C
+prod_0199,Bolo de Chocolate,Padaria,16,388,2025-03-05,Corredor 2, Prateleira C
+prod_0200,Croissant,Padaria,153,286,2025-05-14,Corredor 5, Prateleira A
+prod_0201,Torta de Frango,Padaria,340,309,2024-12-17,Corredor 3, Prateleira D
+prod_0202,Pão Integral,Padaria,357,84,2025-03-20,Corredor 3, Prateleira B
+prod_0203,Biscoito,Padaria,265,271,2025-03-27,Corredor 5, Prateleira A
+prod_0204,Pizza Congelada,Congelados,32,116,2025-05-31,Corredor 1, Prateleira B
+prod_0205,Lasanha Congelada,Congelados,222,291,2025-09-19,Corredor 7, Prateleira A
+prod_0206,Batata Frita Congelada,Congelados,21,375,2025-01-17,Corredor 5, Prateleira B
+prod_0207,Hambúrguer Congelado,Congelados,383,378,2025-01-30,Corredor 4, Prateleira C
+prod_0208,Peixe Congelado,Congelados,175,249,2025-09-10,Corredor 7, Prateleira A
+prod_0209,Nuggets,Congelados,162,176,2025-03-15,Corredor 10, Prateleira B
+prod_0210,Sorvete,Congelados,147,229,2024-12-05,Corredor 5, Prateleira B
+prod_0211,Sabonete,Higiene,319,21,2025-05-17,Corredor 6, Prateleira D
+prod_0212,Shampoo,Higiene,186,267,2024-12-08,Corredor 9, Prateleira A
+prod_0213,Condicionador,Higiene,340,86,2025-08-10,Corredor 1, Prateleira D
+prod_0214,Creme Dental,Higiene,320,213,2025-07-13,Corredor 1, Prateleira B
+prod_0215,Sabonete Líquido,Higiene,351,84,2024-11-18,Corredor 3, Prateleira D
+prod_0216,Desodorante,Higiene,105,174,2025-04-27,Corredor 8, Prateleira B
+prod_0217,Fio Dental,Higiene,268,200,2024-12-14,Corredor 10, Prateleira A
+prod_0218,Detergente,Limpeza,362,241,2025-10-17,Corredor 7, Prateleira A
+prod_0219,Sabão em Pó,Limpeza,364,122,2025-02-12,Corredor 8, Prateleira A
+prod_0220,Amaciante,Limpeza,271,166,2025-06-08,Corredor 6, Prateleira C
+prod_0221,Desinfetante,Limpeza,85,303,2025-07-10,Corredor 2, Prateleira A
+prod_0222,Multiuso,Limpeza,349,291,2025-02-24,Corredor 3, Prateleira B
+prod_0223,Esponja de Aço,Limpeza,69,272,2025-01-09,Corredor 1, Prateleira D
+prod_0224,Limpa Vidros,Limpeza,244,291,2025-06-07,Corredor 3, Prateleira B
+prod_0225,Arroz,Alimentação,425,203,2025-02-17,Corredor 4, Prateleira B
+prod_0226,Feijão,Alimentação,485,200,2025-02-03,Corredor 10, Prateleira D
+prod_0227,Macarrão,Alimentação,169,178,2025-09-12,Corredor 8, Prateleira B
+prod_0228,Açúcar,Alimentação,427,367,2024-11-24,Corredor 6, Prateleira A
+prod_0229,Café,Alimentação,234,82,2024-12-23,Corredor 5, Prateleira C
+prod_0230,Farinha de Trigo,Alimentação,298,86,2025-03-05,Corredor 1, Prateleira A
+prod_0231,Azeite de Oliva,Alimentação,161,300,2025-08-25,Corredor 10, Prateleira D
+prod_0232,Refrigerante,Bebidas,41,111,2025-01-25,Corredor 7, Prateleira B
+prod_0233,Suco de Laranja,Bebidas,216,139,2024-12-29,Corredor 2, Prateleira C
+prod_0234,Água Mineral,Bebidas,54,385,2025-10-17,Corredor 9, Prateleira C
+prod_0235,Cerveja,Bebidas,193,231,2025-01-12,Corredor 9, Prateleira A
+prod_0236,Vinho Tinto,Bebidas,416,56,2025-03-05,Corredor 3, Prateleira C
+prod_0237,Vodka,Bebidas,322,270,2025-10-12,Corredor 4, Prateleira D
+prod_0238,Energético,Bebidas,439,316,2025-09-09,Corredor 8, Prateleira D
+prod_0239,Pilhas,Diversos,392,319,2024-11-23,Corredor 2, Prateleira A
+prod_0240,Lâmpada,Diversos,74,338,2025-04-18,Corredor 4, Prateleira B
+prod_0241,Carvão para Churrasco,Diversos,240,389,2025-04-07,Corredor 4, Prateleira A
+prod_0242,Papel Alumínio,Diversos,108,164,2024-11-30,Corredor 6, Prateleira B
+prod_0243,Papel Filme,Diversos,168,233,2025-02-28,Corredor 8, Prateleira A
+prod_0244,Fósforo,Diversos,118,128,2025-05-28,Corredor 3, Prateleira D
+prod_0245,Guardanapos,Diversos,329,224,2024-12-14,Corredor 4, Prateleira C
+prod_0246,Batom,Cosméticos,450,115,2025-05-26,Corredor 8, Prateleira C
+prod_0247,Esmalte,Cosméticos,11,210,2025-05-28,Corredor 3, Prateleira A
+prod_0248,Loção Hidratante,Cosméticos,187,165,2024-12-16,Corredor 2, Prateleira C
+prod_0249,Perfume,Cosméticos,250,268,2025-01-25,Corredor 5, Prateleira B
+prod_0250,Base,Cosméticos,279,359,2025-06-01,Corredor 3, Prateleira B
+prod_0251,Protetor Solar,Cosméticos,474,95,2025-04-18,Corredor 7, Prateleira B
+prod_0252,Removedor de Maquiagem,Cosméticos,298,327,2025-04-14,Corredor 8, Prateleira B
+prod_0253,Queijo Mussarela,Frios e Laticínios,410,209,2025-07-17,Corredor 6, Prateleira C
+prod_0254,Presunto,Frios e Laticínios,213,391,2024-12-28,Corredor 1, Prateleira B
+prod_0255,Leite Integral,Frios e Laticínios,267,290,2025-08-22,Corredor 8, Prateleira A
+prod_0256,Manteiga,Frios e Laticínios,499,276,2025-06-02,Corredor 10, Prateleira C
+prod_0257,Iogurte,Frios e Laticínios,491,209,2025-05-31,Corredor 4, Prateleira B
+prod_0258,Queijo Parmesão,Frios e Laticínios,241,59,2024-12-03,Corredor 4, Prateleira A
+prod_0259,Requeijão,Frios e Laticínios,341,230,2025-09-28,Corredor 1, Prateleira D
+prod_0260,Carne Moída,Carnes,12,62,2025-06-28,Corredor 7, Prateleira A
+prod_0261,Frango,Carnes,204,133,2025-01-01,Corredor 1, Prateleira C
+prod_0262,Linguiça,Carnes,212,289,2025-09-20,Corredor 3, Prateleira A
+prod_0263,Picanha,Carnes,311,113,2025-01-03,Corredor 6, Prateleira B
+prod_0264,Costela,Carnes,382,382,2025-08-19,Corredor 2, Prateleira C
+prod_0265,Filé de Peito de Frango,Carnes,327,352,2025-08-12,Corredor 7, Prateleira B
+prod_0266,Bife de Alcatra,Carnes,149,242,2024-12-03,Corredor 1, Prateleira D
+prod_0267,Pão Francês,Padaria,469,173,2024-12-08,Corredor 4, Prateleira C
+prod_0268,Pão de Forma,Padaria,90,382,2024-12-15,Corredor 4, Prateleira B
+prod_0269,Bolo de Chocolate,Padaria,273,248,2025-09-16,Corredor 6, Prateleira A
+prod_0270,Croissant,Padaria,207,311,2025-07-02,Corredor 1, Prateleira C
+prod_0271,Torta de Frango,Padaria,136,141,2025-10-06,Corredor 5, Prateleira C
+prod_0272,Pão Integral,Padaria,223,87,2025-02-23,Corredor 1, Prateleira B
+prod_0273,Biscoito,Padaria,197,280,2025-02-04,Corredor 8, Prateleira A
+prod_0274,Pizza Congelada,Congelados,28,213,2025-06-16,Corredor 10, Prateleira B
+prod_0275,Lasanha Congelada,Congelados,335,382,2025-01-19,Corredor 8, Prateleira D
+prod_0276,Batata Frita Congelada,Congelados,335,114,2025-03-15,Corredor 9, Prateleira D
+prod_0277,Hambúrguer Congelado,Congelados,469,70,2025-01-20,Corredor 10, Prateleira C
+prod_0278,Peixe Congelado,Congelados,467,134,2024-12-20,Corredor 6, Prateleira A
+prod_0279,Nuggets,Congelados,145,224,2025-01-04,Corredor 9, Prateleira D
+prod_0280,Sorvete,Congelados,307,360,2025-07-18,Corredor 4, Prateleira B
+prod_0281,Sabonete,Higiene,293,400,2025-05-30,Corredor 6, Prateleira B
+prod_0282,Shampoo,Higiene,354,78,2025-07-21,Corredor 6, Prateleira A
+prod_0283,Condicionador,Higiene,362,303,2025-05-29,Corredor 3, Prateleira C
+prod_0284,Creme Dental,Higiene,317,111,2025-03-19,Corredor 2, Prateleira A
+prod_0285,Sabonete Líquido,Higiene,480,332,2025-04-06,Corredor 8, Prateleira C
+prod_0286,Desodorante,Higiene,142,375,2025-10-07,Corredor 1, Prateleira D
+prod_0287,Fio Dental,Higiene,390,247,2025-07-21,Corredor 5, Prateleira C
+prod_0288,Detergente,Limpeza,299,222,2025-09-25,Corredor 9, Prateleira D
+prod_0289,Sabão em Pó,Limpeza,116,316,2024-11-27,Corredor 8, Prateleira D
+prod_0290,Amaciante,Limpeza,130,343,2025-06-02,Corredor 6, Prateleira A
+prod_0291,Desinfetante,Limpeza,65,172,2025-05-16,Corredor 7, Prateleira D
+prod_0292,Multiuso,Limpeza,378,186,2025-09-10,Corredor 10, Prateleira A
+prod_0293,Esponja de Aço,Limpeza,212,352,2025-08-02,Corredor 3, Prateleira C
+prod_0294,Limpa Vidros,Limpeza,150,90,2024-12-07,Corredor 9, Prateleira B
+prod_0295,Arroz,Alimentação,420,326,2025-03-18,Corredor 10, Prateleira C
+prod_0296,Feijão,Alimentação,164,60,2024-12-18,Corredor 2, Prateleira B
+prod_0297,Macarrão,Alimentação,74,336,2025-04-09,Corredor 1, Prateleira C
+prod_0298,Açúcar,Alimentação,286,36,2025-05-09,Corredor 10, Prateleira B
+prod_0299,Café,Alimentação,417,259,2025-07-11,Corredor 8, Prateleira D
+prod_0300,Farinha de Trigo,Alimentação,362,296,2025-05-11,Corredor 1, Prateleira A
+prod_0301,Azeite de Oliva,Alimentação,289,80,2025-06-14,Corredor 1, Prateleira A
+prod_0302,Refrigerante,Bebidas,138,66,2024-12-01,Corredor 9, Prateleira A
+prod_0303,Suco de Laranja,Bebidas,86,98,2025-06-22,Corredor 7, Prateleira B
+prod_0304,Água Mineral,Bebidas,34,66,2025-04-26,Corredor 1, Prateleira A
+prod_0305,Cerveja,Bebidas,78,400,2025-01-09,Corredor 9, Prateleira C
+prod_0306,Vinho Tinto,Bebidas,325,285,2025-08-16,Corredor 4, Prateleira C
+prod_0307,Vodka,Bebidas,309,180,2025-03-15,Corredor 1, Prateleira D
+prod_0308,Energético,Bebidas,18,332,2025-05-06,Corredor 3, Prateleira C
+prod_0309,Pilhas,Diversos,285,206,2025-03-10,Corredor 6, Prateleira D
+prod_0310,Lâmpada,Diversos,467,135,2025-03-16,Corredor 8, Prateleira D
+prod_0311,Carvão para Churrasco,Diversos,131,237,2025-05-16,Corredor 5, Prateleira A
+prod_0312,Papel Alumínio,Diversos,307,161,2025-05-16,Corredor 3, Prateleira D
+prod_0313,Papel Filme,Diversos,352,307,2025-08-04,Corredor 5, Prateleira D
+prod_0314,Fósforo,Diversos,273,82,2025-08-15,Corredor 7, Prateleira A
+prod_0315,Guardanapos,Diversos,421,138,2025-10-02,Corredor 10, Prateleira B
+prod_0316,Batom,Cosméticos,70,358,2024-12-16,Corredor 10, Prateleira D
+prod_0317,Esmalte,Cosméticos,316,72,2025-05-29,Corredor 6, Prateleira C
+prod_0318,Loção Hidratante,Cosméticos,438,304,2025-10-17,Corredor 9, Prateleira B
+prod_0319,Perfume,Cosméticos,30,353,2025-08-31,Corredor 4, Prateleira B
+prod_0320,Base,Cosméticos,437,214,2025-07-13,Corredor 3, Prateleira C
+prod_0321,Protetor Solar,Cosméticos,392,250,2025-07-01,Corredor 2, Prateleira D
+prod_0322,Removedor de Maquiagem,Cosméticos,311,95,2025-01-09,Corredor 10, Prateleira D
+prod_0323,Queijo Mussarela,Frios e Laticínios,492,295,2025-08-23,Corredor 7, Prateleira C
+prod_0324,Presunto,Frios e Laticínios,165,314,2025-03-25,Corredor 4, Prateleira D
+prod_0325,Leite Integral,Frios e Laticínios,424,343,2025-01-17,Corredor 8, Prateleira C
+prod_0326,Manteiga,Frios e Laticínios,457,177,2025-02-14,Corredor 6, Prateleira B
+prod_0327,Iogurte,Frios e Laticínios,200,133,2024-12-13,Corredor 2, Prateleira B
+prod_0328,Queijo Parmesão,Frios e Laticínios,205,221,2025-02-21,Corredor 4, Prateleira B
+prod_0329,Requeijão,Frios e Laticínios,101,349,2025-09-25,Corredor 5, Prateleira B
+prod_0330,Carne Moída,Carnes,300,248,2025-07-14,Corredor 5, Prateleira C
+prod_0331,Frango,Carnes,25,290,2024-12-28,Corredor 8, Prateleira D
+prod_0332,Linguiça,Carnes,327,31,2025-10-08,Corredor 4, Prateleira B
+prod_0333,Picanha,Carnes,356,92,2025-09-25,Corredor 3, Prateleira D
+prod_0334,Costela,Carnes,274,372,2024-12-16,Corredor 4, Prateleira D
+prod_0335,Filé de Peito de Frango,Carnes,417,384,2025-09-18,Corredor 1, Prateleira A
+prod_0336,Bife de Alcatra,Carnes,499,54,2025-05-30,Corredor 3, Prateleira C
+prod_0337,Pão Francês,Padaria,40,255,2025-01-02,Corredor 4, Prateleira B
+prod_0338,Pão de Forma,Padaria,409,338,2025-05-23,Corredor 2, Prateleira A
+prod_0339,Bolo de Chocolate,Padaria,56,271,2025-04-05,Corredor 3, Prateleira A
+prod_0340,Croissant,Padaria,117,382,2025-02-14,Corredor 5, Prateleira D
+prod_0341,Torta de Frango,Padaria,383,292,2025-01-28,Corredor 7, Prateleira D
+prod_0342,Pão Integral,Padaria,102,366,2025-06-27,Corredor 10, Prateleira C
+prod_0343,Biscoito,Padaria,237,86,2025-07-01,Corredor 6, Prateleira B
+prod_0344,Pizza Congelada,Congelados,296,53,2025-07-08,Corredor 7, Prateleira A
+prod_0345,Lasanha Congelada,Congelados,151,348,2025-06-22,Corredor 6, Prateleira C
+prod_0346,Batata Frita Congelada,Congelados,481,226,2025-08-27,Corredor 8, Prateleira C
+prod_0347,Hambúrguer Congelado,Congelados,223,307,2025-09-14,Corredor 3, Prateleira A
+prod_0348,Peixe Congelado,Congelados,224,39,2025-01-19,Corredor 7, Prateleira C
+prod_0349,Nuggets,Congelados,419,381,2025-04-05,Corredor 2, Prateleira C
+prod_0350,Sorvete,Congelados,299,241,2024-11-23,Corredor 2, Prateleira A
+prod_0351,Sabonete,Higiene,484,74,2024-12-23,Corredor 3, Prateleira A
+prod_0352,Shampoo,Higiene,22,143,2025-06-05,Corredor 3, Prateleira A
+prod_0353,Condicionador,Higiene,159,315,2025-01-28,Corredor 1, Prateleira B
+prod_0354,Creme Dental,Higiene,222,228,2025-07-14,Corredor 1, Prateleira B
+prod_0355,Sabonete Líquido,Higiene,418,171,2024-12-27,Corredor 4, Prateleira B
+prod_0356,Desodorante,Higiene,265,373,2025-05-27,Corredor 6, Prateleira B
+prod_0357,Fio Dental,Higiene,97,20,2025-10-04,Corredor 5, Prateleira C
+prod_0358,Detergente,Limpeza,120,245,2025-08-18,Corredor 3, Prateleira C
+prod_0359,Sabão em Pó,Limpeza,314,266,2025-05-22,Corredor 10, Prateleira A
+prod_0360,Amaciante,Limpeza,123,366,2025-10-07,Corredor 10, Prateleira D
+prod_0361,Desinfetante,Limpeza,266,347,2025-08-28,Corredor 9, Prateleira A
+prod_0362,Multiuso,Limpeza,230,332,2025-07-22,Corredor 2, Prateleira C
+prod_0363,Esponja de Aço,Limpeza,470,160,2025-01-19,Corredor 6, Prateleira A
+prod_0364,Limpa Vidros,Limpeza,330,287,2025-10-05,Corredor 1, Prateleira A
+prod_0365,Arroz,Alimentação,359,184,2025-03-20,Corredor 3, Prateleira B
+prod_0366,Feijão,Alimentação,108,343,2025-10-06,Corredor 7, Prateleira A
+prod_0367,Macarrão,Alimentação,69,53,2025-07-02,Corredor 8, Prateleira B
+prod_0368,Açúcar,Alimentação,20,298,2025-05-13,Corredor 2, Prateleira A
+prod_0369,Café,Alimentação,96,340,2025-05-11,Corredor 7, Prateleira D
+prod_0370,Farinha de Trigo,Alimentação,205,130,2024-12-25,Corredor 7, Prateleira B
+prod_0371,Azeite de Oliva,Alimentação,22,194,2025-05-19,Corredor 10, Prateleira B
+prod_0372,Refrigerante,Bebidas,87,297,2025-05-21,Corredor 2, Prateleira C
+prod_0373,Suco de Laranja,Bebidas,224,145,2025-01-21,Corredor 3, Prateleira D
+prod_0374,Água Mineral,Bebidas,381,314,2025-10-07,Corredor 9, Prateleira B
+prod_0375,Cerveja,Bebidas,255,305,2025-08-29,Corredor 3, Prateleira A
+prod_0376,Vinho Tinto,Bebidas,142,268,2024-11-26,Corredor 4, Prateleira D
+prod_0377,Vodka,Bebidas,183,129,2025-09-04,Corredor 3, Prateleira B
+prod_0378,Energético,Bebidas,125,45,2025-08-05,Corredor 6, Prateleira B
+prod_0379,Pilhas,Diversos,456,117,2025-03-25,Corredor 6, Prateleira A
+prod_0380,Lâmpada,Diversos,162,190,2025-01-31,Corredor 2, Prateleira D
+prod_0381,Carvão para Churrasco,Diversos,288,84,2025-04-14,Corredor 10, Prateleira B
+prod_0382,Papel Alumínio,Diversos,406,375,2024-12-03,Corredor 9, Prateleira D
+prod_0383,Papel Filme,Diversos,13,153,2024-12-08,Corredor 4, Prateleira B
+prod_0384,Fósforo,Diversos,214,192,2025-08-13,Corredor 3, Prateleira C
+prod_0385,Guardanapos,Diversos,336,90,2025-09-12,Corredor 5, Prateleira B
+prod_0386,Batom,Cosméticos,247,171,2025-05-10,Corredor 4, Prateleira D
+prod_0387,Esmalte,Cosméticos,219,344,2025-01-26,Corredor 3, Prateleira B
+prod_0388,Loção Hidratante,Cosméticos,433,282,2024-11-21,Corredor 8, Prateleira D
+prod_0389,Perfume,Cosméticos,425,140,2024-12-09,Corredor 6, Prateleira A
+prod_0390,Base,Cosméticos,455,154,2024-12-23,Corredor 1, Prateleira B
+prod_0391,Protetor Solar,Cosméticos,347,236,2024-12-20,Corredor 8, Prateleira D
+prod_0392,Removedor de Maquiagem,Cosméticos,125,155,2025-02-24,Corredor 8, Prateleira C
+prod_0393,Queijo Mussarela,Frios e Laticínios,397,185,2025-07-25,Corredor 8, Prateleira A
+prod_0394,Presunto,Frios e Laticínios,55,250,2025-06-28,Corredor 6, Prateleira B
+prod_0395,Leite Integral,Frios e Laticínios,202,389,2025-05-05,Corredor 5, Prateleira A
+prod_0396,Manteiga,Frios e Laticínios,203,40,2025-01-15,Corredor 1, Prateleira B
+prod_0397,Iogurte,Frios e Laticínios,357,202,2025-08-15,Corredor 4, Prateleira A
+prod_0398,Queijo Parmesão,Frios e Laticínios,301,187,2025-04-07,Corredor 8, Prateleira C
+prod_0399,Requeijão,Frios e Laticínios,299,142,2025-03-12,Corredor 4, Prateleira A
+prod_0400,Carne Moída,Carnes,238,76,2025-06-03,Corredor 5, Prateleira A
+prod_0401,Frango,Carnes,383,354,2025-04-14,Corredor 9, Prateleira D
+prod_0402,Linguiça,Carnes,139,141,2025-02-26,Corredor 5, Prateleira B
+prod_0403,Picanha,Carnes,448,155,2024-12-16,Corredor 6, Prateleira D
+prod_0404,Costela,Carnes,118,293,2025-06-23,Corredor 5, Prateleira A
+prod_0405,Filé de Peito de Frango,Carnes,343,80,2025-04-20,Corredor 5, Prateleira D
+prod_0406,Bife de Alcatra,Carnes,186,323,2025-05-11,Corredor 2, Prateleira D
+prod_0407,Pão Francês,Padaria,90,25,2025-09-07,Corredor 6, Prateleira A
+prod_0408,Pão de Forma,Padaria,498,39,2025-03-28,Corredor 5, Prateleira A
+prod_0409,Bolo de Chocolate,Padaria,325,100,2025-03-01,Corredor 2, Prateleira A
+prod_0410,Croissant,Padaria,409,26,2025-05-21,Corredor 9, Prateleira C
+prod_0411,Torta de Frango,Padaria,68,64,2025-09-08,Corredor 1, Prateleira C
+prod_0412,Pão Integral,Padaria,223,270,2025-06-02,Corredor 4, Prateleira D
+prod_0413,Biscoito,Padaria,256,363,2025-02-24,Corredor 2, Prateleira B
+prod_0414,Pizza Congelada,Congelados,29,90,2025-04-29,Corredor 6, Prateleira A
+prod_0415,Lasanha Congelada,Congelados,142,362,2025-07-09,Corredor 4, Prateleira D
+prod_0416,Batata Frita Congelada,Congelados,355,104,2024-11-24,Corredor 7, Prateleira A
+prod_0417,Hambúrguer Congelado,Congelados,328,332,2025-05-09,Corredor 2, Prateleira A
+prod_0418,Peixe Congelado,Congelados,372,252,2025-07-17,Corredor 3, Prateleira B
+prod_0419,Nuggets,Congelados,429,116,2025-02-06,Corredor 5, Prateleira C
+prod_0420,Sorvete,Congelados,299,279,2025-08-07,Corredor 8, Prateleira A
+prod_0421,Sabonete,Higiene,87,246,2024-11-27,Corredor 3, Prateleira B
+prod_0422,Shampoo,Higiene,384,289,2024-11-24,Corredor 3, Prateleira B
+prod_0423,Condicionador,Higiene,186,288,2025-08-09,Corredor 4, Prateleira B
+prod_0424,Creme Dental,Higiene,423,264,2025-08-23,Corredor 6, Prateleira A
+prod_0425,Sabonete Líquido,Higiene,93,207,2025-05-01,Corredor 9, Prateleira B
+prod_0426,Desodorante,Higiene,258,173,2025-08-11,Corredor 5, Prateleira D
+prod_0427,Fio Dental,Higiene,464,175,2025-08-23,Corredor 5, Prateleira B
+prod_0428,Detergente,Limpeza,48,379,2025-07-22,Corredor 10, Prateleira C
+prod_0429,Sabão em Pó,Limpeza,273,247,2025-07-30,Corredor 3, Prateleira C
+prod_0430,Amaciante,Limpeza,198,219,2025-05-30,Corredor 5, Prateleira D
+prod_0431,Desinfetante,Limpeza,116,131,2025-09-17,Corredor 10, Prateleira A
+prod_0432,Multiuso,Limpeza,253,60,2024-11-24,Corredor 8, Prateleira D
+prod_0433,Esponja de Aço,Limpeza,499,143,2025-05-07,Corredor 2, Prateleira D
+prod_0434,Limpa Vidros,Limpeza,150,75,2025-07-08,Corredor 6, Prateleira B
+prod_0435,Arroz,Alimentação,33,274,2025-02-25,Corredor 8, Prateleira C
+prod_0436,Feijão,Alimentação,269,99,2025-02-04,Corredor 4, Prateleira B
+prod_0437,Macarrão,Alimentação,130,195,2025-06-27,Corredor 8, Prateleira B
+prod_0438,Açúcar,Alimentação,495,89,2025-06-16,Corredor 7, Prateleira B
+prod_0439,Café,Alimentação,455,189,2025-09-03,Corredor 10, Prateleira A
+prod_0440,Farinha de Trigo,Alimentação,396,56,2024-12-27,Corredor 6, Prateleira B
+prod_0441,Azeite de Oliva,Alimentação,83,195,2025-01-13,Corredor 6, Prateleira A
+prod_0442,Refrigerante,Bebidas,253,293,2024-11-26,Corredor 4, Prateleira D
+prod_0443,Suco de Laranja,Bebidas,242,92,2025-06-20,Corredor 4, Prateleira B
+prod_0444,Água Mineral,Bebidas,244,189,2025-09-21,Corredor 5, Prateleira A
+prod_0445,Cerveja,Bebidas,14,367,2025-04-28,Corredor 3, Prateleira B
+prod_0446,Vinho Tinto,Bebidas,403,363,2025-07-27,Corredor 10, Prateleira D
+prod_0447,Vodka,Bebidas,494,24,2025-02-17,Corredor 7, Prateleira B
+prod_0448,Energético,Bebidas,75,354,2025-04-25,Corredor 3, Prateleira A
+prod_0449,Pilhas,Diversos,107,391,2025-02-08,Corredor 3, Prateleira C
+prod_0450,Lâmpada,Diversos,212,202,2024-12-25,Corredor 5, Prateleira D
+prod_0451,Carvão para Churrasco,Diversos,366,127,2025-01-27,Corredor 10, Prateleira C
+prod_0452,Papel Alumínio,Diversos,472,399,2025-01-29,Corredor 9, Prateleira C
+prod_0453,Papel Filme,Diversos,420,147,2025-09-24,Corredor 5, Prateleira D
+prod_0454,Fósforo,Diversos,438,54,2025-04-27,Corredor 2, Prateleira A
+prod_0455,Guardanapos,Diversos,66,298,2025-09-17,Corredor 8, Prateleira A
+prod_0456,Batom,Cosméticos,130,389,2025-03-07,Corredor 8, Prateleira D
+prod_0457,Esmalte,Cosméticos,456,357,2024-12-27,Corredor 5, Prateleira B
+prod_0458,Loção Hidratante,Cosméticos,224,227,2024-11-19,Corredor 4, Prateleira C
+prod_0459,Perfume,Cosméticos,331,227,2025-08-18,Corredor 1, Prateleira C
+prod_0460,Base,Cosméticos,433,245,2025-06-09,Corredor 2, Prateleira A
+prod_0461,Protetor Solar,Cosméticos,292,263,2025-09-26,Corredor 4, Prateleira C
+prod_0462,Removedor de Maquiagem,Cosméticos,85,341,2024-12-11,Corredor 1, Prateleira B
+prod_0463,Queijo Mussarela,Frios e Laticínios,13,204,2025-03-11,Corredor 1, Prateleira C
+prod_0464,Presunto,Frios e Laticínios,495,205,2025-10-05,Corredor 8, Prateleira C
+prod_0465,Leite Integral,Frios e Laticínios,191,394,2024-12-10,Corredor 8, Prateleira D
+prod_0466,Manteiga,Frios e Laticínios,245,165,2025-03-15,Corredor 9, Prateleira B
+prod_0467,Iogurte,Frios e Laticínios,105,367,2025-06-03,Corredor 10, Prateleira D
+prod_0468,Queijo Parmesão,Frios e Laticínios,166,144,2025-01-14,Corredor 7, Prateleira D
+prod_0469,Requeijão,Frios e Laticínios,275,148,2025-01-13,Corredor 9, Prateleira C
+prod_0470,Carne Moída,Carnes,447,178,2025-05-07,Corredor 8, Prateleira D
+prod_0471,Frango,Carnes,255,284,2025-06-20,Corredor 10, Prateleira C
+prod_0472,Linguiça,Carnes,429,151,2025-04-29,Corredor 9, Prateleira C
+prod_0473,Picanha,Carnes,333,273,2025-07-09,Corredor 2, Prateleira B
+prod_0474,Costela,Carnes,448,298,2025-08-20,Corredor 7, Prateleira D
+prod_0475,Filé de Peito de Frango,Carnes,22,163,2025-08-20,Corredor 7, Prateleira A
+prod_0476,Bife de Alcatra,Carnes,307,53,2025-03-28,Corredor 3, Prateleira D
+prod_0477,Pão Francês,Padaria,438,384,2025-03-16,Corredor 5, Prateleira B
+prod_0478,Pão de Forma,Padaria,65,264,2025-06-18,Corredor 2, Prateleira C
+prod_0479,Bolo de Chocolate,Padaria,464,366,2025-07-16,Corredor 1, Prateleira C
+prod_0480,Croissant,Padaria,204,366,2025-09-09,Corredor 8, Prateleira C
+prod_0481,Torta de Frango,Padaria,33,324,2025-02-04,Corredor 5, Prateleira A
+prod_0482,Pão Integral,Padaria,321,367,2025-05-17,Corredor 6, Prateleira B
+prod_0483,Biscoito,Padaria,361,104,2025-03-11,Corredor 5, Prateleira A
+prod_0484,Pizza Congelada,Congelados,98,286,2025-01-24,Corredor 3, Prateleira B
+prod_0485,Lasanha Congelada,Congelados,262,179,2025-05-12,Corredor 5, Prateleira D
+prod_0486,Batata Frita Congelada,Congelados,169,398,2025-03-02,Corredor 10, Prateleira C
+prod_0487,Hambúrguer Congelado,Congelados,350,209,2025-06-06,Corredor 5, Prateleira B
+prod_0488,Peixe Congelado,Congelados,363,76,2024-12-28,Corredor 3, Prateleira B
+prod_0489,Nuggets,Congelados,314,216,2025-10-15,Corredor 1, Prateleira A
+prod_0490,Sorvete,Congelados,190,171,2024-12-13,Corredor 6, Prateleira B
+prod_0491,Sabonete,Higiene,29,84,2025-01-13,Corredor 3, Prateleira C
+prod_0492,Shampoo,Higiene,195,239,2025-09-16,Corredor 3, Prateleira D
+prod_0493,Condicionador,Higiene,275,174,2025-09-08,Corredor 7, Prateleira D
+prod_0494,Creme Dental,Higiene,189,114,2025-07-11,Corredor 4, Prateleira C
+prod_0495,Sabonete Líquido,Higiene,199,162,2025-07-09,Corredor 7, Prateleira C
+prod_0496,Desodorante,Higiene,254,230,2025-05-03,Corredor 8, Prateleira D
+prod_0497,Fio Dental,Higiene,136,30,2025-03-05,Corredor 9, Prateleira D
+prod_0498,Detergente,Limpeza,98,189,2025-03-26,Corredor 3, Prateleira A
+prod_0499,Sabão em Pó,Limpeza,298,395,2025-04-03,Corredor 5, Prateleira A
+prod_0500,Amaciante,Limpeza,67,359,2025-02-26,Corredor 5, Prateleira B
+prod_0501,Desinfetante,Limpeza,430,123,2025-07-24,Corredor 1, Prateleira B
+prod_0502,Multiuso,Limpeza,228,34,2024-11-22,Corredor 4, Prateleira A
+prod_0503,Esponja de Aço,Limpeza,317,79,2025-01-09,Corredor 8, Prateleira D
+prod_0504,Limpa Vidros,Limpeza,380,80,2025-01-08,Corredor 8, Prateleira B
+prod_0505,Arroz,Alimentação,150,275,2025-05-21,Corredor 2, Prateleira C
+prod_0506,Feijão,Alimentação,121,156,2025-07-03,Corredor 3, Prateleira D
+prod_0507,Macarrão,Alimentação,455,274,2024-11-26,Corredor 5, Prateleira A
+prod_0508,Açúcar,Alimentação,430,94,2024-11-18,Corredor 10, Prateleira D
+prod_0509,Café,Alimentação,300,88,2024-11-30,Corredor 7, Prateleira D
+prod_0510,Farinha de Trigo,Alimentação,476,254,2025-04-29,Corredor 5, Prateleira D
+prod_0511,Azeite de Oliva,Alimentação,397,316,2025-06-08,Corredor 10, Prateleira D
+prod_0512,Refrigerante,Bebidas,451,323,2024-12-27,Corredor 5, Prateleira D
+prod_0513,Suco de Laranja,Bebidas,325,399,2024-12-24,Corredor 7, Prateleira A
+prod_0514,Água Mineral,Bebidas,321,95,2025-09-29,Corredor 3, Prateleira D
+prod_0515,Cerveja,Bebidas,143,353,2025-08-19,Corredor 5, Prateleira C
+prod_0516,Vinho Tinto,Bebidas,105,131,2025-05-10,Corredor 4, Prateleira B
+prod_0517,Vodka,Bebidas,121,23,2025-06-16,Corredor 5, Prateleira D
+prod_0518,Energético,Bebidas,152,302,2025-07-19,Corredor 3, Prateleira D
+prod_0519,Pilhas,Diversos,350,35,2025-09-21,Corredor 7, Prateleira A
+prod_0520,Lâmpada,Diversos,267,79,2025-07-16,Corredor 2, Prateleira C
+prod_0521,Carvão para Churrasco,Diversos,93,346,2025-03-26,Corredor 8, Prateleira B
+prod_0522,Papel Alumínio,Diversos,55,305,2025-03-27,Corredor 6, Prateleira D
+prod_0523,Papel Filme,Diversos,363,261,2025-09-27,Corredor 4, Prateleira A
+prod_0524,Fósforo,Diversos,212,71,2025-08-15,Corredor 7, Prateleira A
+prod_0525,Guardanapos,Diversos,376,147,2024-12-08,Corredor 7, Prateleira C
+prod_0526,Batom,Cosméticos,214,90,2025-03-29,Corredor 4, Prateleira C
+prod_0527,Esmalte,Cosméticos,377,386,2024-12-02,Corredor 6, Prateleira D
+prod_0528,Loção Hidratante,Cosméticos,41,343,2025-07-17,Corredor 3, Prateleira C
+prod_0529,Perfume,Cosméticos,472,331,2025-04-04,Corredor 1, Prateleira A
+prod_0530,Base,Cosméticos,364,398,2025-04-07,Corredor 10, Prateleira A
+prod_0531,Protetor Solar,Cosméticos,429,177,2025-02-12,Corredor 7, Prateleira D
+prod_0532,Removedor de Maquiagem,Cosméticos,415,346,2025-08-15,Corredor 6, Prateleira A
+prod_0533,Queijo Mussarela,Frios e Laticínios,250,274,2025-04-30,Corredor 7, Prateleira C
+prod_0534,Presunto,Frios e Laticínios,170,340,2025-07-06,Corredor 10, Prateleira C
+prod_0535,Leite Integral,Frios e Laticínios,17,232,2025-09-22,Corredor 4, Prateleira C
+prod_0536,Manteiga,Frios e Laticínios,69,356,2025-03-05,Corredor 10, Prateleira D
+prod_0537,Iogurte,Frios e Laticínios,94,397,2024-12-15,Corredor 1, Prateleira C
+prod_0538,Queijo Parmesão,Frios e Laticínios,164,324,2025-03-08,Corredor 6, Prateleira B
+prod_0539,Requeijão,Frios e Laticínios,478,123,2025-07-31,Corredor 1, Prateleira C
+prod_0540,Carne Moída,Carnes,295,286,2025-04-01,Corredor 7, Prateleira D
+prod_0541,Frango,Carnes,219,313,2025-03-18,Corredor 3, Prateleira A
+prod_0542,Linguiça,Carnes,80,273,2025-02-10,Corredor 4, Prateleira B
+prod_0543,Picanha,Carnes,341,69,2024-11-18,Corredor 10, Prateleira B
+prod_0544,Costela,Carnes,126,360,2025-01-09,Corredor 6, Prateleira B
+prod_0545,Filé de Peito de Frango,Carnes,33,252,2025-09-14,Corredor 8, Prateleira B
+prod_0546,Bife de Alcatra,Carnes,449,212,2025-04-16,Corredor 9, Prateleira A
+prod_0547,Pão Francês,Padaria,379,236,2024-12-16,Corredor 7, Prateleira A
+prod_0548,Pão de Forma,Padaria,134,35,2025-02-21,Corredor 10, Prateleira D
+prod_0549,Bolo de Chocolate,Padaria,162,267,2024-12-12,Corredor 6, Prateleira B
+prod_0550,Croissant,Padaria,56,95,2025-07-04,Corredor 6, Prateleira C
+prod_0551,Torta de Frango,Padaria,313,91,2025-03-05,Corredor 6, Prateleira A
+prod_0552,Pão Integral,Padaria,111,21,2025-03-25,Corredor 2, Prateleira D
+prod_0553,Biscoito,Padaria,11,116,2025-09-13,Corredor 1, Prateleira C
+prod_0554,Pizza Congelada,Congelados,144,347,2025-04-16,Corredor 7, Prateleira C
+prod_0555,Lasanha Congelada,Congelados,183,196,2024-12-05,Corredor 6, Prateleira A
+prod_0556,Batata Frita Congelada,Congelados,55,382,2025-04-26,Corredor 10, Prateleira D
+prod_0557,Hambúrguer Congelado,Congelados,90,380,2025-08-05,Corredor 5, Prateleira C
+prod_0558,Peixe Congelado,Congelados,489,143,2025-01-22,Corredor 4, Prateleira C
+prod_0559,Nuggets,Congelados,155,142,2025-10-02,Corredor 10, Prateleira A
+prod_0560,Sorvete,Congelados,125,119,2025-01-08,Corredor 8, Prateleira B
+prod_0561,Sabonete,Higiene,23,297,2025-01-17,Corredor 8, Prateleira C
+prod_0562,Shampoo,Higiene,358,261,2025-09-15,Corredor 8, Prateleira B
+prod_0563,Condicionador,Higiene,130,283,2025-10-04,Corredor 9, Prateleira A
+prod_0564,Creme Dental,Higiene,413,395,2024-11-18,Corredor 8, Prateleira A
+prod_0565,Sabonete Líquido,Higiene,84,67,2025-02-01,Corredor 10, Prateleira C
+prod_0566,Desodorante,Higiene,417,305,2024-12-26,Corredor 4, Prateleira B
+prod_0567,Fio Dental,Higiene,325,274,2025-01-17,Corredor 1, Prateleira A
+prod_0568,Detergente,Limpeza,376,310,2025-05-03,Corredor 5, Prateleira A
+prod_0569,Sabão em Pó,Limpeza,318,257,2025-05-15,Corredor 4, Prateleira C
+prod_0570,Amaciante,Limpeza,248,48,2025-08-04,Corredor 1, Prateleira B
+prod_0571,Desinfetante,Limpeza,410,177,2025-09-15,Corredor 9, Prateleira B
+prod_0572,Multiuso,Limpeza,23,59,2025-03-23,Corredor 1, Prateleira D
+prod_0573,Esponja de Aço,Limpeza,408,189,2025-10-08,Corredor 3, Prateleira C
+prod_0574,Limpa Vidros,Limpeza,39,155,2025-07-07,Corredor 6, Prateleira B
+prod_0575,Arroz,Alimentação,11,280,2024-12-04,Corredor 8, Prateleira C
+prod_0576,Feijão,Alimentação,316,250,2025-06-01,Corredor 10, Prateleira C
+prod_0577,Macarrão,Alimentação,196,260,2025-10-04,Corredor 6, Prateleira B
+prod_0578,Açúcar,Alimentação,416,357,2025-09-03,Corredor 3, Prateleira A
+prod_0579,Café,Alimentação,393,169,2025-06-14,Corredor 1, Prateleira B
+prod_0580,Farinha de Trigo,Alimentação,256,274,2025-02-14,Corredor 3, Prateleira A
+prod_0581,Azeite de Oliva,Alimentação,176,370,2025-09-05,Corredor 8, Prateleira B
+prod_0582,Refrigerante,Bebidas,122,70,2025-09-07,Corredor 6, Prateleira A
+prod_0583,Suco de Laranja,Bebidas,227,208,2025-03-11,Corredor 10, Prateleira A
+prod_0584,Água Mineral,Bebidas,271,92,2025-10-02,Corredor 9, Prateleira C
+prod_0585,Cerveja,Bebidas,356,260,2025-02-06,Corredor 2, Prateleira C
+prod_0586,Vinho Tinto,Bebidas,308,74,2025-05-13,Corredor 7, Prateleira A
+prod_0587,Vodka,Bebidas,282,108,2025-06-07,Corredor 6, Prateleira D
+prod_0588,Energético,Bebidas,35,78,2025-02-16,Corredor 8, Prateleira A
+prod_0589,Pilhas,Diversos,338,292,2025-05-09,Corredor 9, Prateleira B
+prod_0590,Lâmpada,Diversos,73,284,2025-01-21,Corredor 4, Prateleira A
+prod_0591,Carvão para Churrasco,Diversos,173,387,2025-07-04,Corredor 10, Prateleira C
+prod_0592,Papel Alumínio,Diversos,354,242,2025-01-11,Corredor 6, Prateleira D
+prod_0593,Papel Filme,Diversos,131,397,2025-06-12,Corredor 5, Prateleira A
+prod_0594,Fósforo,Diversos,161,50,2025-02-06,Corredor 9, Prateleira B
+prod_0595,Guardanapos,Diversos,180,65,2025-09-03,Corredor 1, Prateleira B
+prod_0596,Batom,Cosméticos,301,57,2025-06-19,Corredor 2, Prateleira D
+prod_0597,Esmalte,Cosméticos,250,134,2025-06-25,Corredor 9, Prateleira D
+prod_0598,Loção Hidratante,Cosméticos,62,374,2025-04-02,Corredor 5, Prateleira A
+prod_0599,Perfume,Cosméticos,30,91,2025-06-30,Corredor 6, Prateleira D
+prod_0600,Base,Cosméticos,73,267,2024-11-29,Corredor 6, Prateleira D
+prod_0601,Protetor Solar,Cosméticos,375,299,2025-03-16,Corredor 6, Prateleira A
+prod_0602,Removedor de Maquiagem,Cosméticos,133,368,2025-10-17,Corredor 10, Prateleira B
+prod_0603,Queijo Mussarela,Frios e Laticínios,272,131,2025-10-04,Corredor 3, Prateleira A
+prod_0604,Presunto,Frios e Laticínios,11,231,2024-11-27,Corredor 6, Prateleira C
+prod_0605,Leite Integral,Frios e Laticínios,33,295,2024-12-31,Corredor 8, Prateleira D
+prod_0606,Manteiga,Frios e Laticínios,114,115,2025-06-24,Corredor 8, Prateleira B
+prod_0607,Iogurte,Frios e Laticínios,33,199,2025-01-22,Corredor 9, Prateleira C
+prod_0608,Queijo Parmesão,Frios e Laticínios,216,125,2025-04-02,Corredor 9, Prateleira D
+prod_0609,Requeijão,Frios e Laticínios,246,274,2025-02-21,Corredor 4, Prateleira C
+prod_0610,Carne Moída,Carnes,383,46,2025-07-16,Corredor 3, Prateleira D
+prod_0611,Frango,Carnes,348,350,2025-07-25,Corredor 7, Prateleira A
+prod_0612,Linguiça,Carnes,266,70,2025-01-27,Corredor 7, Prateleira D
+prod_0613,Picanha,Carnes,268,328,2025-07-12,Corredor 8, Prateleira C
+prod_0614,Costela,Carnes,429,38,2024-12-24,Corredor 8, Prateleira C
+prod_0615,Filé de Peito de Frango,Carnes,96,308,2025-09-05,Corredor 4, Prateleira B
+prod_0616,Bife de Alcatra,Carnes,369,235,2025-04-26,Corredor 5, Prateleira D
+prod_0617,Pão Francês,Padaria,176,62,2024-11-24,Corredor 1, Prateleira C
+prod_0618,Pão de Forma,Padaria,487,383,2025-05-10,Corredor 6, Prateleira A
+prod_0619,Bolo de Chocolate,Padaria,358,277,2025-05-22,Corredor 10, Prateleira C
+prod_0620,Croissant,Padaria,441,139,2025-01-28,Corredor 7, Prateleira A
+prod_0621,Torta de Frango,Padaria,496,198,2025-07-17,Corredor 3, Prateleira B
+prod_0622,Pão Integral,Padaria,163,211,2025-04-24,Corredor 8, Prateleira D
+prod_0623,Biscoito,Padaria,136,365,2025-02-25,Corredor 10, Prateleira C
+prod_0624,Pizza Congelada,Congelados,230,224,2025-10-10,Corredor 6, Prateleira A
+prod_0625,Lasanha Congelada,Congelados,166,237,2025-03-21,Corredor 7, Prateleira B
+prod_0626,Batata Frita Congelada,Congelados,260,124,2025-10-06,Corredor 10, Prateleira A
+prod_0627,Hambúrguer Congelado,Congelados,326,189,2024-12-03,Corredor 5, Prateleira A
+prod_0628,Peixe Congelado,Congelados,76,33,2024-12-27,Corredor 9, Prateleira A
+prod_0629,Nuggets,Congelados,450,34,2024-12-17,Corredor 8, Prateleira A
+prod_0630,Sorvete,Congelados,202,146,2025-06-08,Corredor 9, Prateleira B
+prod_0631,Sabonete,Higiene,330,334,2025-06-12,Corredor 3, Prateleira C
+prod_0632,Shampoo,Higiene,493,238,2025-09-27,Corredor 2, Prateleira A
+prod_0633,Condicionador,Higiene,159,334,2025-08-21,Corredor 8, Prateleira D
+prod_0634,Creme Dental,Higiene,314,55,2025-10-03,Corredor 10, Prateleira C
+prod_0635,Sabonete Líquido,Higiene,380,184,2025-02-02,Corredor 6, Prateleira B
+prod_0636,Desodorante,Higiene,382,124,2025-04-19,Corredor 9, Prateleira B
+prod_0637,Fio Dental,Higiene,100,176,2024-12-15,Corredor 10, Prateleira D
+prod_0638,Detergente,Limpeza,80,52,2025-01-01,Corredor 3, Prateleira A
+prod_0639,Sabão em Pó,Limpeza,167,377,2025-05-24,Corredor 7, Prateleira D
+prod_0640,Amaciante,Limpeza,166,349,2024-12-03,Corredor 8, Prateleira D
+prod_0641,Desinfetante,Limpeza,179,139,2024-12-05,Corredor 7, Prateleira D
+prod_0642,Multiuso,Limpeza,238,270,2025-02-03,Corredor 6, Prateleira A
+prod_0643,Esponja de Aço,Limpeza,406,87,2025-02-15,Corredor 1, Prateleira D
+prod_0644,Limpa Vidros,Limpeza,170,180,2025-03-09,Corredor 7, Prateleira D
+prod_0645,Arroz,Alimentação,32,39,2025-01-16,Corredor 7, Prateleira B
+prod_0646,Feijão,Alimentação,136,382,2025-08-26,Corredor 9, Prateleira C
+prod_0647,Macarrão,Alimentação,348,380,2025-05-05,Corredor 2, Prateleira D
+prod_0648,Açúcar,Alimentação,26,374,2024-12-14,Corredor 5, Prateleira B
+prod_0649,Café,Alimentação,121,384,2025-04-12,Corredor 4, Prateleira C
+prod_0650,Farinha de Trigo,Alimentação,189,169,2024-11-18,Corredor 3, Prateleira A
+prod_0651,Azeite de Oliva,Alimentação,486,48,2025-05-27,Corredor 1, Prateleira C
+prod_0652,Refrigerante,Bebidas,414,52,2025-10-13,Corredor 2, Prateleira B
+prod_0653,Suco de Laranja,Bebidas,345,278,2024-12-09,Corredor 3, Prateleira D
+prod_0654,Água Mineral,Bebidas,300,98,2025-01-31,Corredor 1, Prateleira D
+prod_0655,Cerveja,Bebidas,293,163,2025-04-14,Corredor 10, Prateleira D
+prod_0656,Vinho Tinto,Bebidas,290,103,2025-04-21,Corredor 10, Prateleira B
+prod_0657,Vodka,Bebidas,128,259,2025-02-12,Corredor 8, Prateleira B
+prod_0658,Energético,Bebidas,21,391,2024-12-01,Corredor 1, Prateleira A
+prod_0659,Pilhas,Diversos,500,120,2025-03-11,Corredor 9, Prateleira D
+prod_0660,Lâmpada,Diversos,103,203,2025-07-16,Corredor 9, Prateleira B
+prod_0661,Carvão para Churrasco,Diversos,221,215,2025-07-24,Corredor 8, Prateleira B
+prod_0662,Papel Alumínio,Diversos,380,150,2025-01-13,Corredor 6, Prateleira D
+prod_0663,Papel Filme,Diversos,463,346,2025-03-06,Corredor 2, Prateleira B
+prod_0664,Fósforo,Diversos,439,31,2025-07-01,Corredor 9, Prateleira C
+prod_0665,Guardanapos,Diversos,406,267,2025-03-03,Corredor 3, Prateleira D
+prod_0666,Batom,Cosméticos,345,223,2025-04-30,Corredor 3, Prateleira A
+prod_0667,Esmalte,Cosméticos,356,45,2025-09-29,Corredor 1, Prateleira B
+prod_0668,Loção Hidratante,Cosméticos,193,210,2025-06-11,Corredor 6, Prateleira B
+prod_0669,Perfume,Cosméticos,107,322,2025-01-22,Corredor 1, Prateleira A
+prod_0670,Base,Cosméticos,216,382,2025-01-09,Corredor 4, Prateleira D
+prod_0671,Protetor Solar,Cosméticos,352,86,2025-03-25,Corredor 4, Prateleira D
+prod_0672,Removedor de Maquiagem,Cosméticos,451,260,2025-09-25,Corredor 8, Prateleira C
+prod_0673,Queijo Mussarela,Frios e Laticínios,27,260,2025-05-06,Corredor 6, Prateleira C
+prod_0674,Presunto,Frios e Laticínios,146,352,2025-03-19,Corredor 3, Prateleira D
+prod_0675,Leite Integral,Frios e Laticínios,258,199,2024-12-15,Corredor 6, Prateleira B
+prod_0676,Manteiga,Frios e Laticínios,245,268,2025-01-04,Corredor 4, Prateleira D
+prod_0677,Iogurte,Frios e Laticínios,85,155,2024-11-27,Corredor 8, Prateleira C
+prod_0678,Queijo Parmesão,Frios e Laticínios,238,336,2025-05-08,Corredor 5, Prateleira B
+prod_0679,Requeijão,Frios e Laticínios,444,230,2025-07-09,Corredor 2, Prateleira A
+prod_0680,Carne Moída,Carnes,322,102,2025-09-07,Corredor 9, Prateleira A
+prod_0681,Frango,Carnes,277,121,2025-01-13,Corredor 2, Prateleira D
+prod_0682,Linguiça,Carnes,126,171,2025-09-20,Corredor 3, Prateleira B
+prod_0683,Picanha,Carnes,229,147,2025-07-26,Corredor 10, Prateleira C
+prod_0684,Costela,Carnes,205,198,2024-11-25,Corredor 6, Prateleira C
+prod_0685,Filé de Peito de Frango,Carnes,92,45,2025-02-02,Corredor 3, Prateleira A
+prod_0686,Bife de Alcatra,Carnes,412,336,2025-04-19,Corredor 8, Prateleira A
+prod_0687,Pão Francês,Padaria,84,371,2025-04-23,Corredor 3, Prateleira D
+prod_0688,Pão de Forma,Padaria,202,322,2025-08-13,Corredor 5, Prateleira B
+prod_0689,Bolo de Chocolate,Padaria,84,345,2025-07-25,Corredor 1, Prateleira B
+prod_0690,Croissant,Padaria,152,378,2025-04-22,Corredor 5, Prateleira C
+prod_0691,Torta de Frango,Padaria,100,89,2024-12-10,Corredor 1, Prateleira B
+prod_0692,Pão Integral,Padaria,200,242,2024-12-01,Corredor 1, Prateleira C
+prod_0693,Biscoito,Padaria,94,192,2025-03-04,Corredor 7, Prateleira A
+prod_0694,Pizza Congelada,Congelados,492,106,2024-12-09,Corredor 7, Prateleira D
+prod_0695,Lasanha Congelada,Congelados,310,53,2025-06-02,Corredor 5, Prateleira C
+prod_0696,Batata Frita Congelada,Congelados,306,50,2025-07-23,Corredor 8, Prateleira D
+prod_0697,Hambúrguer Congelado,Congelados,495,332,2025-07-29,Corredor 7, Prateleira D
+prod_0698,Peixe Congelado,Congelados,37,363,2025-07-30,Corredor 5, Prateleira C
+prod_0699,Nuggets,Congelados,497,69,2025-02-28,Corredor 7, Prateleira A
+prod_0700,Sorvete,Congelados,95,248,2025-07-20,Corredor 1, Prateleira B
+prod_0701,Sabonete,Higiene,217,353,2025-07-09,Corredor 1, Prateleira C
+prod_0702,Shampoo,Higiene,351,227,2024-11-30,Corredor 10, Prateleira A
+prod_0703,Condicionador,Higiene,31,289,2025-09-30,Corredor 9, Prateleira A
+prod_0704,Creme Dental,Higiene,150,387,2025-06-17,Corredor 10, Prateleira B
+prod_0705,Sabonete Líquido,Higiene,282,268,2025-10-14,Corredor 8, Prateleira B
+prod_0706,Desodorante,Higiene,137,237,2025-04-29,Corredor 3, Prateleira C
+prod_0707,Fio Dental,Higiene,118,345,2025-07-31,Corredor 10, Prateleira A
+prod_0708,Detergente,Limpeza,228,200,2025-01-15,Corredor 7, Prateleira C
+prod_0709,Sabão em Pó,Limpeza,164,380,2025-03-16,Corredor 10, Prateleira A
+prod_0710,Amaciante,Limpeza,226,318,2025-09-26,Corredor 10, Prateleira B
+prod_0711,Desinfetante,Limpeza,302,134,2025-01-04,Corredor 8, Prateleira C
+prod_0712,Multiuso,Limpeza,459,145,2025-06-28,Corredor 7, Prateleira D
+prod_0713,Esponja de Aço,Limpeza,355,264,2025-06-28,Corredor 2, Prateleira A
+prod_0714,Limpa Vidros,Limpeza,195,51,2025-08-03,Corredor 2, Prateleira B
+prod_0715,Arroz,Alimentação,266,122,2025-01-10,Corredor 8, Prateleira C
+prod_0716,Feijão,Alimentação,424,348,2025-09-18,Corredor 3, Prateleira A
+prod_0717,Macarrão,Alimentação,73,170,2025-06-13,Corredor 10, Prateleira A
+prod_0718,Açúcar,Alimentação,284,119,2024-12-14,Corredor 1, Prateleira C
+prod_0719,Café,Alimentação,220,320,2024-11-29,Corredor 2, Prateleira C
+prod_0720,Farinha de Trigo,Alimentação,478,232,2025-06-16,Corredor 6, Prateleira D
+prod_0721,Azeite de Oliva,Alimentação,359,388,2025-07-29,Corredor 3, Prateleira B
+prod_0722,Refrigerante,Bebidas,337,249,2025-03-25,Corredor 9, Prateleira A
+prod_0723,Suco de Laranja,Bebidas,268,65,2025-08-03,Corredor 8, Prateleira B
+prod_0724,Água Mineral,Bebidas,377,101,2025-05-09,Corredor 7, Prateleira B
+prod_0725,Cerveja,Bebidas,289,343,2025-05-28,Corredor 2, Prateleira A
+prod_0726,Vinho Tinto,Bebidas,172,116,2025-01-24,Corredor 2, Prateleira D
+prod_0727,Vodka,Bebidas,242,70,2025-03-23,Corredor 10, Prateleira B
+prod_0728,Energético,Bebidas,452,82,2025-04-27,Corredor 3, Prateleira A
+prod_0729,Pilhas,Diversos,79,180,2025-02-16,Corredor 7, Prateleira C
+prod_0730,Lâmpada,Diversos,416,164,2025-07-15,Corredor 7, Prateleira A
+prod_0731,Carvão para Churrasco,Diversos,35,86,2025-02-17,Corredor 2, Prateleira D
+prod_0732,Papel Alumínio,Diversos,225,265,2025-04-10,Corredor 4, Prateleira D
+prod_0733,Papel Filme,Diversos,235,118,2024-12-09,Corredor 5, Prateleira D
+prod_0734,Fósforo,Diversos,119,367,2025-04-07,Corredor 5, Prateleira C
+prod_0735,Guardanapos,Diversos,66,264,2025-01-21,Corredor 7, Prateleira D
+prod_0736,Batom,Cosméticos,328,385,2025-08-16,Corredor 1, Prateleira A
+prod_0737,Esmalte,Cosméticos,118,336,2025-07-22,Corredor 8, Prateleira D
+prod_0738,Loção Hidratante,Cosméticos,87,399,2025-02-02,Corredor 3, Prateleira A
+prod_0739,Perfume,Cosméticos,96,327,2025-04-09,Corredor 8, Prateleira D
+prod_0740,Base,Cosméticos,106,33,2025-02-27,Corredor 5, Prateleira A
+prod_0741,Protetor Solar,Cosméticos,357,329,2025-09-26,Corredor 7, Prateleira A
+prod_0742,Removedor de Maquiagem,Cosméticos,207,182,2025-06-16,Corredor 10, Prateleira D
+prod_0743,Queijo Mussarela,Frios e Laticínios,34,140,2025-05-29,Corredor 9, Prateleira B
+prod_0744,Presunto,Frios e Laticínios,31,155,2025-05-29,Corredor 5, Prateleira B
+prod_0745,Leite Integral,Frios e Laticínios,151,30,2024-12-06,Corredor 8, Prateleira B
+prod_0746,Manteiga,Frios e Laticínios,102,382,2025-03-03,Corredor 7, Prateleira C
+prod_0747,Iogurte,Frios e Laticínios,280,315,2024-12-02,Corredor 5, Prateleira B
+prod_0748,Queijo Parmesão,Frios e Laticínios,367,251,2025-02-27,Corredor 5, Prateleira A
+prod_0749,Requeijão,Frios e Laticínios,133,133,2025-06-19,Corredor 7, Prateleira C
+prod_0750,Carne Moída,Carnes,303,73,2025-01-10,Corredor 7, Prateleira A
+prod_0751,Frango,Carnes,176,155,2025-03-05,Corredor 2, Prateleira A
+prod_0752,Linguiça,Carnes,352,223,2024-12-22,Corredor 10, Prateleira D
+prod_0753,Picanha,Carnes,93,150,2025-01-27,Corredor 2, Prateleira A
+prod_0754,Costela,Carnes,106,224,2024-12-07,Corredor 2, Prateleira A
+prod_0755,Filé de Peito de Frango,Carnes,415,263,2025-08-15,Corredor 3, Prateleira D
+prod_0756,Bife de Alcatra,Carnes,260,216,2025-05-18,Corredor 9, Prateleira B
+prod_0757,Pão Francês,Padaria,453,125,2025-08-20,Corredor 5, Prateleira C
+prod_0758,Pão de Forma,Padaria,406,157,2025-04-05,Corredor 4, Prateleira C
+prod_0759,Bolo de Chocolate,Padaria,111,81,2025-07-02,Corredor 3, Prateleira A
+prod_0760,Croissant,Padaria,288,387,2025-07-13,Corredor 9, Prateleira C
+prod_0761,Torta de Frango,Padaria,358,258,2025-07-15,Corredor 4, Prateleira D
+prod_0762,Pão Integral,Padaria,125,300,2024-12-25,Corredor 4, Prateleira D
+prod_0763,Biscoito,Padaria,227,257,2024-11-22,Corredor 8, Prateleira B
+prod_0764,Pizza Congelada,Congelados,57,385,2025-08-05,Corredor 7, Prateleira A
+prod_0765,Lasanha Congelada,Congelados,209,338,2025-07-03,Corredor 6, Prateleira C
+prod_0766,Batata Frita Congelada,Congelados,228,297,2025-01-03,Corredor 6, Prateleira C
+prod_0767,Hambúrguer Congelado,Congelados,391,129,2025-02-04,Corredor 4, Prateleira C
+prod_0768,Peixe Congelado,Congelados,374,174,2024-12-31,Corredor 4, Prateleira A
+prod_0769,Nuggets,Congelados,73,117,2024-12-05,Corredor 3, Prateleira D
+prod_0770,Sorvete,Congelados,350,358,2025-06-20,Corredor 7, Prateleira D
+prod_0771,Sabonete,Higiene,53,289,2025-08-05,Corredor 10, Prateleira D
+prod_0772,Shampoo,Higiene,139,81,2025-09-29,Corredor 5, Prateleira B
+prod_0773,Condicionador,Higiene,69,106,2025-01-25,Corredor 8, Prateleira D
+prod_0774,Creme Dental,Higiene,406,154,2025-05-29,Corredor 10, Prateleira B
+prod_0775,Sabonete Líquido,Higiene,287,386,2024-12-14,Corredor 8, Prateleira A
+prod_0776,Desodorante,Higiene,273,84,2025-05-30,Corredor 2, Prateleira A
+prod_0777,Fio Dental,Higiene,300,224,2025-05-30,Corredor 3, Prateleira B
+prod_0778,Detergente,Limpeza,322,125,2025-06-10,Corredor 9, Prateleira B
+prod_0779,Sabão em Pó,Limpeza,435,355,2025-05-08,Corredor 10, Prateleira C
+prod_0780,Amaciante,Limpeza,90,308,2025-01-07,Corredor 9, Prateleira C
+prod_0781,Desinfetante,Limpeza,180,393,2025-01-07,Corredor 2, Prateleira C
+prod_0782,Multiuso,Limpeza,222,396,2025-07-12,Corredor 10, Prateleira A
+prod_0783,Esponja de Aço,Limpeza,131,349,2025-07-31,Corredor 3, Prateleira A
+prod_0784,Limpa Vidros,Limpeza,391,344,2025-02-24,Corredor 3, Prateleira C
+prod_0785,Arroz,Alimentação,108,327,2025-06-02,Corredor 5, Prateleira C
+prod_0786,Feijão,Alimentação,78,315,2025-07-01,Corredor 3, Prateleira A
+prod_0787,Macarrão,Alimentação,379,88,2025-02-24,Corredor 1, Prateleira A
+prod_0788,Açúcar,Alimentação,294,138,2025-05-16,Corredor 7, Prateleira A
+prod_0789,Café,Alimentação,154,143,2025-01-13,Corredor 8, Prateleira C
+prod_0790,Farinha de Trigo,Alimentação,500,150,2025-08-17,Corredor 1, Prateleira D
+prod_0791,Azeite de Oliva,Alimentação,317,109,2025-05-24,Corredor 4, Prateleira D
+prod_0792,Refrigerante,Bebidas,49,31,2025-10-16,Corredor 5, Prateleira D
+prod_0793,Suco de Laranja,Bebidas,236,255,2025-04-20,Corredor 6, Prateleira C
+prod_0794,Água Mineral,Bebidas,358,197,2025-08-10,Corredor 1, Prateleira C
+prod_0795,Cerveja,Bebidas,272,313,2025-01-04,Corredor 1, Prateleira B
+prod_0796,Vinho Tinto,Bebidas,169,237,2025-07-21,Corredor 6, Prateleira B
+prod_0797,Vodka,Bebidas,438,287,2025-10-16,Corredor 3, Prateleira C
+prod_0798,Energético,Bebidas,473,134,2025-07-12,Corredor 2, Prateleira D
+prod_0799,Pilhas,Diversos,104,199,2025-09-17,Corredor 4, Prateleira C
+prod_0800,Lâmpada,Diversos,174,120,2025-10-13,Corredor 7, Prateleira A
+prod_0801,Carvão para Churrasco,Diversos,227,153,2025-07-22,Corredor 2, Prateleira C
+prod_0802,Papel Alumínio,Diversos,82,26,2025-05-10,Corredor 7, Prateleira D
+prod_0803,Papel Filme,Diversos,203,50,2025-03-03,Corredor 2, Prateleira B
+prod_0804,Fósforo,Diversos,52,390,2025-10-08,Corredor 10, Prateleira C
+prod_0805,Guardanapos,Diversos,348,167,2025-08-05,Corredor 8, Prateleira D
+prod_0806,Batom,Cosméticos,87,395,2025-07-29,Corredor 9, Prateleira C
+prod_0807,Esmalte,Cosméticos,204,114,2025-01-13,Corredor 2, Prateleira D
+prod_0808,Loção Hidratante,Cosméticos,39,213,2025-04-16,Corredor 3, Prateleira B
+prod_0809,Perfume,Cosméticos,474,157,2024-12-03,Corredor 2, Prateleira A
+prod_0810,Base,Cosméticos,118,106,2025-09-09,Corredor 6, Prateleira A
+prod_0811,Protetor Solar,Cosméticos,30,90,2025-01-01,Corredor 4, Prateleira D
+prod_0812,Removedor de Maquiagem,Cosméticos,410,244,2025-09-08,Corredor 2, Prateleira D
+prod_0813,Queijo Mussarela,Frios e Laticínios,500,82,2025-09-01,Corredor 6, Prateleira A
+prod_0814,Presunto,Frios e Laticínios,492,260,2025-04-10,Corredor 5, Prateleira A
+prod_0815,Leite Integral,Frios e Laticínios,75,185,2025-02-03,Corredor 6, Prateleira C
+prod_0816,Manteiga,Frios e Laticínios,28,370,2025-05-25,Corredor 9, Prateleira C
+prod_0817,Iogurte,Frios e Laticínios,356,319,2025-01-18,Corredor 3, Prateleira B
+prod_0818,Queijo Parmesão,Frios e Laticínios,484,91,2025-06-30,Corredor 1, Prateleira D
+prod_0819,Requeijão,Frios e Laticínios,274,31,2025-08-04,Corredor 8, Prateleira B
+prod_0820,Carne Moída,Carnes,297,326,2025-04-11,Corredor 3, Prateleira C
+prod_0821,Frango,Carnes,335,381,2025-08-01,Corredor 4, Prateleira D
+prod_0822,Linguiça,Carnes,328,46,2025-02-13,Corredor 6, Prateleira A
+prod_0823,Picanha,Carnes,465,286,2025-02-10,Corredor 1, Prateleira C
+prod_0824,Costela,Carnes,21,349,2025-05-24,Corredor 8, Prateleira C
+prod_0825,Filé de Peito de Frango,Carnes,446,318,2025-04-23,Corredor 6, Prateleira A
+prod_0826,Bife de Alcatra,Carnes,192,54,2025-02-15,Corredor 2, Prateleira C
+prod_0827,Pão Francês,Padaria,441,133,2025-08-03,Corredor 2, Prateleira D
+prod_0828,Pão de Forma,Padaria,353,383,2025-08-31,Corredor 8, Prateleira D
+prod_0829,Bolo de Chocolate,Padaria,18,301,2025-05-08,Corredor 9, Prateleira D
+prod_0830,Croissant,Padaria,384,92,2025-01-03,Corredor 9, Prateleira A
+prod_0831,Torta de Frango,Padaria,214,263,2024-12-20,Corredor 5, Prateleira D
+prod_0832,Pão Integral,Padaria,395,360,2025-09-09,Corredor 9, Prateleira C
+prod_0833,Biscoito,Padaria,369,241,2025-02-01,Corredor 3, Prateleira B
+prod_0834,Pizza Congelada,Congelados,472,349,2025-10-07,Corredor 2, Prateleira D
+prod_0835,Lasanha Congelada,Congelados,484,183,2025-04-23,Corredor 7, Prateleira C
+prod_0836,Batata Frita Congelada,Congelados,294,375,2025-08-04,Corredor 10, Prateleira B
+prod_0837,Hambúrguer Congelado,Congelados,259,169,2025-09-04,Corredor 4, Prateleira D
+prod_0838,Peixe Congelado,Congelados,33,83,2025-03-06,Corredor 10, Prateleira B
+prod_0839,Nuggets,Congelados,28,177,2025-08-09,Corredor 1, Prateleira D
+prod_0840,Sorvete,Congelados,410,100,2025-09-21,Corredor 7, Prateleira A
+prod_0841,Sabonete,Higiene,10,300,2025-05-03,Corredor 1, Prateleira C
+prod_0842,Shampoo,Higiene,360,158,2025-04-24,Corredor 9, Prateleira C
+prod_0843,Condicionador,Higiene,473,351,2025-06-09,Corredor 10, Prateleira C
+prod_0844,Creme Dental,Higiene,95,330,2025-02-10,Corredor 5, Prateleira C
+prod_0845,Sabonete Líquido,Higiene,390,160,2025-01-22,Corredor 9, Prateleira A
+prod_0846,Desodorante,Higiene,455,331,2025-02-05,Corredor 3, Prateleira A
+prod_0847,Fio Dental,Higiene,71,350,2025-06-25,Corredor 5, Prateleira B
+prod_0848,Detergente,Limpeza,27,39,2025-05-15,Corredor 7, Prateleira B
+prod_0849,Sabão em Pó,Limpeza,40,169,2025-02-15,Corredor 6, Prateleira D
+prod_0850,Amaciante,Limpeza,56,203,2025-05-24,Corredor 3, Prateleira D
+prod_0851,Desinfetante,Limpeza,494,210,2025-03-01,Corredor 9, Prateleira D
+prod_0852,Multiuso,Limpeza,402,257,2025-04-29,Corredor 6, Prateleira C
+prod_0853,Esponja de Aço,Limpeza,371,275,2024-12-24,Corredor 10, Prateleira B
+prod_0854,Limpa Vidros,Limpeza,289,43,2025-01-02,Corredor 2, Prateleira C
+prod_0855,Arroz,Alimentação,258,117,2024-12-08,Corredor 7, Prateleira D
+prod_0856,Feijão,Alimentação,294,363,2025-07-09,Corredor 6, Prateleira A
+prod_0857,Macarrão,Alimentação,249,113,2025-09-17,Corredor 4, Prateleira C
+prod_0858,Açúcar,Alimentação,106,343,2025-04-06,Corredor 3, Prateleira D
+prod_0859,Café,Alimentação,273,223,2025-08-25,Corredor 6, Prateleira B
+prod_0860,Farinha de Trigo,Alimentação,262,149,2024-11-22,Corredor 7, Prateleira D
+prod_0861,Azeite de Oliva,Alimentação,439,273,2024-12-30,Corredor 4, Prateleira C
+prod_0862,Refrigerante,Bebidas,146,301,2025-05-10,Corredor 5, Prateleira B
+prod_0863,Suco de Laranja,Bebidas,387,52,2025-04-22,Corredor 1, Prateleira B
+prod_0864,Água Mineral,Bebidas,15,217,2025-04-15,Corredor 7, Prateleira B
+prod_0865,Cerveja,Bebidas,137,240,2025-09-24,Corredor 6, Prateleira B
+prod_0866,Vinho Tinto,Bebidas,495,84,2025-03-19,Corredor 4, Prateleira C
+prod_0867,Vodka,Bebidas,78,54,2025-04-19,Corredor 5, Prateleira B
+prod_0868,Energético,Bebidas,458,61,2025-02-28,Corredor 3, Prateleira C
+prod_0869,Pilhas,Diversos,10,336,2025-09-12,Corredor 7, Prateleira B
+prod_0870,Lâmpada,Diversos,165,47,2025-02-18,Corredor 5, Prateleira B
+prod_0871,Carvão para Churrasco,Diversos,327,178,2025-06-13,Corredor 10, Prateleira C
+prod_0872,Papel Alumínio,Diversos,365,231,2025-08-02,Corredor 2, Prateleira C
+prod_0873,Papel Filme,Diversos,500,184,2025-07-24,Corredor 2, Prateleira B
+prod_0874,Fósforo,Diversos,236,355,2025-05-01,Corredor 6, Prateleira C
+prod_0875,Guardanapos,Diversos,306,228,2025-06-02,Corredor 8, Prateleira C
+prod_0876,Batom,Cosméticos,448,91,2025-07-12,Corredor 9, Prateleira D
+prod_0877,Esmalte,Cosméticos,265,127,2024-12-03,Corredor 1, Prateleira D
+prod_0878,Loção Hidratante,Cosméticos,455,180,2025-02-25,Corredor 2, Prateleira C
+prod_0879,Perfume,Cosméticos,368,178,2025-05-14,Corredor 7, Prateleira C
+prod_0880,Base,Cosméticos,392,88,2025-09-19,Corredor 4, Prateleira D
+prod_0881,Protetor Solar,Cosméticos,407,138,2025-07-17,Corredor 3, Prateleira C
+prod_0882,Removedor de Maquiagem,Cosméticos,223,283,2025-06-11,Corredor 7, Prateleira C
+prod_0883,Queijo Mussarela,Frios e Laticínios,21,370,2025-10-16,Corredor 6, Prateleira D
+prod_0884,Presunto,Frios e Laticínios,206,77,2024-12-21,Corredor 5, Prateleira A
+prod_0885,Leite Integral,Frios e Laticínios,52,24,2025-08-16,Corredor 2, Prateleira D
+prod_0886,Manteiga,Frios e Laticínios,64,320,2025-02-27,Corredor 5, Prateleira B
+prod_0887,Iogurte,Frios e Laticínios,274,228,2025-07-29,Corredor 10, Prateleira B
+prod_0888,Queijo Parmesão,Frios e Laticínios,473,42,2025-09-01,Corredor 9, Prateleira B
+prod_0889,Requeijão,Frios e Laticínios,12,238,2025-08-09,Corredor 1, Prateleira C
+prod_0890,Carne Moída,Carnes,453,393,2025-08-13,Corredor 7, Prateleira C
+prod_0891,Frango,Carnes,45,261,2024-11-28,Corredor 3, Prateleira B
+prod_0892,Linguiça,Carnes,91,296,2024-12-03,Corredor 10, Prateleira D
+prod_0893,Picanha,Carnes,196,138,2025-10-15,Corredor 3, Prateleira B
+prod_0894,Costela,Carnes,385,283,2025-02-08,Corredor 9, Prateleira B
+prod_0895,Filé de Peito de Frango,Carnes,25,95,2024-12-04,Corredor 2, Prateleira B
+prod_0896,Bife de Alcatra,Carnes,420,310,2025-01-17,Corredor 1, Prateleira C
+prod_0897,Pão Francês,Padaria,137,293,2025-05-01,Corredor 9, Prateleira C
+prod_0898,Pão de Forma,Padaria,289,345,2025-03-17,Corredor 1, Prateleira B
+prod_0899,Bolo de Chocolate,Padaria,308,62,2025-01-14,Corredor 5, Prateleira D
+prod_0900,Croissant,Padaria,121,271,2024-12-21,Corredor 8, Prateleira A
+prod_0901,Torta de Frango,Padaria,51,218,2025-06-23,Corredor 3, Prateleira B
+prod_0902,Pão Integral,Padaria,402,238,2025-10-19,Corredor 4, Prateleira A
+prod_0903,Biscoito,Padaria,234,373,2024-11-22,Corredor 9, Prateleira D
+prod_0904,Pizza Congelada,Congelados,307,57,2025-07-16,Corredor 3, Prateleira A
+prod_0905,Lasanha Congelada,Congelados,450,231,2024-12-06,Corredor 7, Prateleira C
+prod_0906,Batata Frita Congelada,Congelados,446,38,2024-11-19,Corredor 8, Prateleira A
+prod_0907,Hambúrguer Congelado,Congelados,70,141,2025-10-04,Corredor 7, Prateleira B
+prod_0908,Peixe Congelado,Congelados,65,322,2025-03-11,Corredor 8, Prateleira B
+prod_0909,Nuggets,Congelados,456,26,2025-02-22,Corredor 2, Prateleira A
+prod_0910,Sorvete,Congelados,376,224,2025-09-04,Corredor 4, Prateleira B
+prod_0911,Sabonete,Higiene,164,94,2025-03-11,Corredor 1, Prateleira B
+prod_0912,Shampoo,Higiene,428,100,2025-07-21,Corredor 6, Prateleira D
+prod_0913,Condicionador,Higiene,450,27,2025-03-03,Corredor 3, Prateleira B
+prod_0914,Creme Dental,Higiene,112,84,2025-10-05,Corredor 4, Prateleira A
+prod_0915,Sabonete Líquido,Higiene,244,400,2024-11-18,Corredor 10, Prateleira A
+prod_0916,Desodorante,Higiene,458,239,2024-12-14,Corredor 2, Prateleira C
+prod_0917,Fio Dental,Higiene,97,350,2025-10-10,Corredor 9, Prateleira B
+prod_0918,Detergente,Limpeza,419,332,2025-06-25,Corredor 2, Prateleira A
+prod_0919,Sabão em Pó,Limpeza,189,265,2025-09-13,Corredor 10, Prateleira D
+prod_0920,Amaciante,Limpeza,125,71,2025-01-17,Corredor 5, Prateleira A
+prod_0921,Desinfetante,Limpeza,311,152,2025-01-10,Corredor 7, Prateleira B
+prod_0922,Multiuso,Limpeza,479,163,2025-07-17,Corredor 8, Prateleira B
+prod_0923,Esponja de Aço,Limpeza,65,70,2025-09-09,Corredor 10, Prateleira B
+prod_0924,Limpa Vidros,Limpeza,100,104,2025-04-10,Corredor 6, Prateleira B
+prod_0925,Arroz,Alimentação,227,364,2025-05-22,Corredor 5, Prateleira C
+prod_0926,Feijão,Alimentação,342,224,2025-04-04,Corredor 9, Prateleira D
+prod_0927,Macarrão,Alimentação,339,33,2025-08-14,Corredor 2, Prateleira D
+prod_0928,Açúcar,Alimentação,366,150,2025-04-20,Corredor 7, Prateleira D
+prod_0929,Café,Alimentação,87,371,2025-06-06,Corredor 4, Prateleira B
+prod_0930,Farinha de Trigo,Alimentação,385,209,2025-05-24,Corredor 8, Prateleira A
+prod_0931,Azeite de Oliva,Alimentação,190,96,2025-09-12,Corredor 4, Prateleira B
+prod_0932,Refrigerante,Bebidas,237,251,2025-02-22,Corredor 7, Prateleira A
+prod_0933,Suco de Laranja,Bebidas,215,232,2025-04-25,Corredor 2, Prateleira B
+prod_0934,Água Mineral,Bebidas,16,78,2025-07-18,Corredor 7, Prateleira C
+prod_0935,Cerveja,Bebidas,342,203,2025-01-08,Corredor 3, Prateleira B
+prod_0936,Vinho Tinto,Bebidas,347,284,2025-01-05,Corredor 8, Prateleira C
+prod_0937,Vodka,Bebidas,152,383,2025-05-07,Corredor 8, Prateleira A
+prod_0938,Energético,Bebidas,342,165,2025-05-12,Corredor 4, Prateleira A
+prod_0939,Pilhas,Diversos,322,329,2025-04-12,Corredor 10, Prateleira D
+prod_0940,Lâmpada,Diversos,88,145,2025-03-17,Corredor 10, Prateleira B
+prod_0941,Carvão para Churrasco,Diversos,120,338,2024-12-16,Corredor 4, Prateleira B
+prod_0942,Papel Alumínio,Diversos,32,227,2025-01-08,Corredor 1, Prateleira D
+prod_0943,Papel Filme,Diversos,349,309,2025-10-13,Corredor 7, Prateleira B
+prod_0944,Fósforo,Diversos,474,305,2025-09-27,Corredor 1, Prateleira C
+prod_0945,Guardanapos,Diversos,158,81,2025-04-14,Corredor 3, Prateleira D
+prod_0946,Batom,Cosméticos,163,281,2025-09-15,Corredor 6, Prateleira D
+prod_0947,Esmalte,Cosméticos,369,71,2025-07-02,Corredor 8, Prateleira A
+prod_0948,Loção Hidratante,Cosméticos,126,330,2025-09-12,Corredor 9, Prateleira D
+prod_0949,Perfume,Cosméticos,256,311,2025-06-11,Corredor 3, Prateleira A
+prod_0950,Base,Cosméticos,412,153,2025-03-07,Corredor 8, Prateleira D
+prod_0951,Protetor Solar,Cosméticos,254,347,2025-07-14,Corredor 2, Prateleira B
+prod_0952,Removedor de Maquiagem,Cosméticos,69,169,2025-04-21,Corredor 6, Prateleira C
+prod_0953,Queijo Mussarela,Frios e Laticínios,136,272,2025-06-18,Corredor 7, Prateleira C
+prod_0954,Presunto,Frios e Laticínios,310,389,2025-08-05,Corredor 7, Prateleira B
+prod_0955,Leite Integral,Frios e Laticínios,292,97,2025-02-07,Corredor 8, Prateleira B
+prod_0956,Manteiga,Frios e Laticínios,200,79,2025-07-28,Corredor 5, Prateleira D
+prod_0957,Iogurte,Frios e Laticínios,289,289,2025-04-11,Corredor 10, Prateleira C
+prod_0958,Queijo Parmesão,Frios e Laticínios,458,196,2025-09-04,Corredor 5, Prateleira A
+prod_0959,Requeijão,Frios e Laticínios,393,70,2025-01-28,Corredor 6, Prateleira B
+prod_0960,Carne Moída,Carnes,406,291,2025-05-13,Corredor 8, Prateleira D
+prod_0961,Frango,Carnes,284,255,2025-07-20,Corredor 4, Prateleira B
+prod_0962,Linguiça,Carnes,21,107,2025-05-12,Corredor 6, Prateleira D
+prod_0963,Picanha,Carnes,434,182,2025-10-16,Corredor 2, Prateleira D
+prod_0964,Costela,Carnes,343,260,2024-12-05,Corredor 9, Prateleira D
+prod_0965,Filé de Peito de Frango,Carnes,47,84,2025-05-18,Corredor 7, Prateleira A
+prod_0966,Bife de Alcatra,Carnes,319,41,2024-11-22,Corredor 8, Prateleira B
+prod_0967,Pão Francês,Padaria,179,57,2025-01-08,Corredor 10, Prateleira B
+prod_0968,Pão de Forma,Padaria,412,175,2025-08-23,Corredor 8, Prateleira D
+prod_0969,Bolo de Chocolate,Padaria,104,263,2025-08-19,Corredor 9, Prateleira D
+prod_0970,Croissant,Padaria,410,189,2025-01-24,Corredor 2, Prateleira A
+prod_0971,Torta de Frango,Padaria,46,159,2025-02-15,Corredor 10, Prateleira A
+prod_0972,Pão Integral,Padaria,396,204,2025-04-25,Corredor 5, Prateleira D
+prod_0973,Biscoito,Padaria,399,77,2025-04-24,Corredor 5, Prateleira D
+prod_0974,Pizza Congelada,Congelados,265,57,2025-09-20,Corredor 6, Prateleira A
+prod_0975,Lasanha Congelada,Congelados,231,304,2024-12-08,Corredor 8, Prateleira C
+prod_0976,Batata Frita Congelada,Congelados,428,382,2025-09-12,Corredor 5, Prateleira C
+prod_0977,Hambúrguer Congelado,Congelados,249,330,2025-02-15,Corredor 7, Prateleira B
+prod_0978,Peixe Congelado,Congelados,426,399,2025-07-17,Corredor 8, Prateleira C
+prod_0979,Nuggets,Congelados,410,171,2025-09-06,Corredor 1, Prateleira A
+prod_0980,Sorvete,Congelados,110,102,2025-04-10,Corredor 7, Prateleira C
+prod_0981,Sabonete,Higiene,40,115,2025-08-08,Corredor 1, Prateleira D
+prod_0982,Shampoo,Higiene,168,370,2024-11-25,Corredor 8, Prateleira D
+prod_0983,Condicionador,Higiene,292,77,2024-12-09,Corredor 2, Prateleira D
+prod_0984,Creme Dental,Higiene,492,130,2025-03-16,Corredor 8, Prateleira B
+prod_0985,Sabonete Líquido,Higiene,473,27,2025-04-29,Corredor 7, Prateleira D
+prod_0986,Desodorante,Higiene,38,53,2025-08-27,Corredor 9, Prateleira C
+prod_0987,Fio Dental,Higiene,202,286,2025-07-26,Corredor 5, Prateleira D
+prod_0988,Detergente,Limpeza,174,103,2024-12-05,Corredor 10, Prateleira D
+prod_0989,Sabão em Pó,Limpeza,393,173,2024-12-01,Corredor 9, Prateleira A
+prod_0990,Amaciante,Limpeza,267,400,2025-01-22,Corredor 6, Prateleira D
+prod_0991,Desinfetante,Limpeza,21,49,2025-04-15,Corredor 7, Prateleira C
+prod_0992,Multiuso,Limpeza,187,78,2025-09-03,Corredor 2, Prateleira B
+prod_0993,Esponja de Aço,Limpeza,430,370,2025-08-13,Corredor 6, Prateleira C
+prod_0994,Limpa Vidros,Limpeza,376,317,2025-01-07,Corredor 10, Prateleira B
+prod_0995,Arroz,Alimentação,378,309,2024-11-29,Corredor 1, Prateleira A
+prod_0996,Feijão,Alimentação,475,187,2025-10-19,Corredor 5, Prateleira D
+prod_0997,Macarrão,Alimentação,54,245,2025-03-23,Corredor 1, Prateleira A
+prod_0998,Açúcar,Alimentação,250,318,2025-02-22,Corredor 3, Prateleira D
+prod_0999,Café,Alimentação,221,239,2024-12-23,Corredor 10, Prateleira C
+prod_1000,Farinha de Trigo,Alimentação,283,61,2025-02-08,Corredor 6, Prateleira C

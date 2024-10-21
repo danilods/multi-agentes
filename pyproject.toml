@@ -1,0 +1,11 @@
+[project]
+name = "agentes-teste"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<=3.13"
+dependencies = [
+    "crewai-tools>=0.13.2",
+    "crewai>=0.74.2",
+    "tomli>=2.0.2",
+]

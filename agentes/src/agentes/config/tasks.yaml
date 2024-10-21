@@ -1,0 +1,43 @@
+previsao_vendas_task:
+  description: >
+    Utilizar os dados de vendas históricos para prever a demanda futura dos produtos.
+  expected_output: >
+    Um relatório detalhado com previsões de vendas para os próximos 6 meses.
+  agent: agente_previsao_demanda
+
+inventario_task:
+  description: >
+    Analisar o inventário e prever as necessidades de reposição com base nas previsões de vendas.
+  expected_output: >
+    Um relatório com recomendações de produtos que precisam ser reabastecidos.
+  agent: agente_inventario
+  dependencies:
+    - previsao_vendas_task
+
+estrategia_marketing_task:
+  description: >
+    Desenvolver estratégias de marketing com base nas previsões de vendas.
+  expected_output: >
+    Um plano de marketing com campanhas estratégicas.
+  agent: agente_marketing
+  dependencies:
+    - previsao_vendas_task
+
+geracao_imagens_marketing_task:
+  description: >
+    Criar imagens publicitárias baseadas nas campanhas de marketing desenvolvidas.
+  expected_output: >
+    Um conjunto de imagens publicitárias para as campanhas.
+  agent: agente_imagens
+  dependencies:
+    - estrategia_marketing_task
+
+analise_dados_task:
+  description: >
+    Gerar gráficos e relatórios estratégicos para a diretoria.
+  expected_output: >
+    Um relatório com gráficos que resumam as principais métricas de desempenho.
+  agent: agente_dados
+  dependencies:
+    - previsao_vendas_task
+    - inventario_task
